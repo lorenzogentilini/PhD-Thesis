@@ -42,52 +42,52 @@
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Trajectory Planning}}{57}{chapter.5}%
 \contentsline {section}{\numberline {5.1}The Framework}{57}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Related Works}{57}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Quadrotor Trajectory Generation}{59}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Hybrid State A$^{\star }$}{59}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Trajectory Optimisation}{59}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Experimental Results}{59}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Contributions}{59}{section.5.3}%
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Trajectory Replanning for Obstacle Avoidance}}{61}{chapter.6}%
-\contentsline {section}{\numberline {6.1}The Framework}{61}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Related Works}{62}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Problem Definition}{63}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}On Flight Trajectory Replanning}{64}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Collision Perception \& Replanning Trigger}{65}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Topological Path Searching}{66}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Path Shortening and Optimisation}{67}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}B-Spline Trajectory Injection}{69}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Experimental Results}{71}{subsection.6.2.5}%
-\contentsline {section}{\numberline {6.3}Spatio-Temporal Curves Separation}{73}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Spatio-Temporal Parameterisation \& Composition}{74}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Spatio-Temporal Separation}{77}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Experimental Results}{80}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Data-Driven Control Barrier Functions}{82}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Control Barrier Functions}{84}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Learning the Safe Set}{85}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Proposed Gaussian Control Barrier Function}{86}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Experimental Results}{89}{subsection.6.4.4}%
-\contentsline {section}{\numberline {6.5}Contributions}{90}{section.6.5}%
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Adaptive Nonlinear Output Regulation}}{91}{part.3}%
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Data-Driven Nonlinear Regulation}}{93}{chapter.7}%
-\contentsline {section}{\numberline {7.1}The Framework of Output Regulation}{93}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Identification-Based Post-Processing Internal Model}{95}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Adapting the Post-Processing Internal Model}{98}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Gaussian Process Regression}{98}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Gaussian Process-based Adaptive Regulation}{101}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Numerical Simulations}{105}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}Identification-Based Pre-Processing Internal Model}{109}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Adapting the Pre-Processing Internal Model}{112}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Gaussian Process Inference}{113}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}The Proposed Regulator}{115}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}Numerical Simulation}{117}{subsection.7.5.3}%
-\contentsline {section}{\numberline {7.6}Contributions}{119}{section.7.6}%
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Appendices}}{123}{part.4}%
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {B-splines, NURBS and B\'ezier Curves}}{125}{appendix.A}%
-\contentsline {section}{\numberline {A.1}B-Spline Curves}{125}{section.A.1}%
-\contentsline {section}{\numberline {A.2}NURBS Curves}{126}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Relation Between B-Spline \& NURBS Curves}{127}{section.A.3}%
-\contentsline {section}{\numberline {A.4}B\'ezier Curves}{128}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Relation Between B-Spline \& B\'ezier Curves}{130}{section.A.5}%
+\contentsline {section}{\numberline {5.2}Quadrotor Trajectory Generation}{58}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Hybrid-State A$^{\star }$}{59}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}B-Spline Trajectory Optimisation}{61}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Experimental Results}{63}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Contributions}{64}{section.5.3}%
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Trajectory Replanning for Obstacle Avoidance}}{65}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The Framework}{65}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Related Works}{66}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Problem Definition}{67}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}On Flight Trajectory Replanning}{68}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Collision Perception \& Replanning Trigger}{69}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Topological Path Searching}{70}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Path Shortening and Optimisation}{71}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}B-Spline Trajectory Injection}{73}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Experimental Results}{75}{subsection.6.2.5}%
+\contentsline {section}{\numberline {6.3}Spatio-Temporal Curves Separation}{77}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Spatio-Temporal Parameterisation \& Composition}{78}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Spatio-Temporal Separation}{81}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Experimental Results}{84}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Data-Driven Control Barrier Functions}{86}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Control Barrier Functions}{88}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Learning the Safe Set}{89}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Proposed Gaussian Control Barrier Function}{90}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Experimental Results}{93}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}Contributions}{94}{section.6.5}%
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Adaptive Nonlinear Output Regulation}}{95}{part.3}%
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Data-Driven Nonlinear Regulation}}{97}{chapter.7}%
+\contentsline {section}{\numberline {7.1}The Framework of Output Regulation}{97}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Identification-Based Post-Processing Internal Model}{99}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Adapting the Post-Processing Internal Model}{102}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Gaussian Process Regression}{102}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Gaussian Process-based Adaptive Regulation}{105}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Numerical Simulations}{109}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Identification-Based Pre-Processing Internal Model}{113}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Adapting the Pre-Processing Internal Model}{116}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Gaussian Process Inference}{117}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}The Proposed Regulator}{119}{subsection.7.5.2}%
+\contentsline {subsection}{\numberline {7.5.3}Numerical Simulation}{121}{subsection.7.5.3}%
+\contentsline {section}{\numberline {7.6}Contributions}{123}{section.7.6}%
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Appendices}}{127}{part.4}%
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {B-splines, NURBS and B\'ezier Curves}}{129}{appendix.A}%
+\contentsline {section}{\numberline {A.1}B-Spline Curves}{129}{section.A.1}%
+\contentsline {section}{\numberline {A.2}NURBS Curves}{130}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Relation Between B-Spline \& NURBS Curves}{131}{section.A.3}%
+\contentsline {section}{\numberline {A.4}B\'ezier Curves}{132}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Relation Between B-Spline \& B\'ezier Curves}{134}{section.A.5}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{131}{dummy.5}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{135}{dummy.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

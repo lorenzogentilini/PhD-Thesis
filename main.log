@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  13 MAY 2023 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  14 MAY 2023 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1293,7 +1293,7 @@ Overfull \hbox (6.48666pt too wide) in paragraph at lines 32--32
 Package tocbasic Info: character protrusion at lof deactivated on input line 26.
  (./main.lof
 Overfull \hbox (7.43388pt too wide) in paragraph at lines 10--10
- \T1/pplj/m/n/10.95 check-ing [[][]138[][]] (b) the pro-posed mul-ti-ple spheres 
+ \T1/pplj/m/n/10.95 check-ing [[][]139[][]] (b) the pro-posed mul-ti-ple spheres 
  []
 
 
@@ -1333,12 +1333,12 @@ Overfull \hbox (2.17863pt too wide) in paragraph at lines 35--35
  \T1/pplj/m/n/10.95 ex-plo-ration steps, and (c) five ex-plo-ration steps. 
  []
 
-
+[11]
 Overfull \hbox (11.43138pt too wide) in paragraph at lines 47--47
  \T1/pplj/m/n/10.95 tory, and the blue path rep-re-sents the fi-nal choice. 
  []
 
-[11]
+
 Overfull \hbox (4.81758pt too wide) in paragraph at lines 56--56
  \T1/pplj/m/n/10.95 the y-axis, and the blue rep-re-sents the jerk along 
  []
@@ -1348,12 +1348,12 @@ Overfull \hbox (3.59042pt too wide) in paragraph at lines 56--56
  \T1/pplj/m/n/10.95 ini-tial tra-jec-tory is bro-ken and re-con-nected with 
  []
 
-
+[12]
 Overfull \hbox (1.64587pt too wide) in paragraph at lines 59--59
  \T1/pplj/m/n/10.95 ap-pear dur-ing the ex-plo-ration task. As emerges 
  []
 
-[12]
+
 Overfull \hbox (2.62683pt too wide) in paragraph at lines 62--62
  \T1/pplj/m/n/10.95 sam-pled con-trol points of the con-tin-u-ous curve, 
  []
@@ -1393,7 +1393,7 @@ Overfull \hbox (4.06456pt too wide) in paragraph at lines 98--98
  [][] []\T1/pplj/m/n/10.95 Results ob-tained com-par-ing our ap-proach $\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 e[]\OT1/zplm/m/n/10.95 )$ 
  []
 
-
+[15]
 Overfull \hbox (4.06456pt too wide) in paragraph at lines 99--99
  [][] []\T1/pplj/m/n/10.95 Results ob-tained com-par-ing our ap-proach $\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 e[]\OT1/zplm/m/n/10.95 )$ 
  []
@@ -1423,7 +1423,7 @@ Overfull \hbox (7.7515pt too wide) in paragraph at lines 100--100
  \T1/pplj/m/n/10.95 the dif-fer-ence in the case of gaussian-based iden- 
  []
 
-[15]
+
 Overfull \hbox (5.409pt too wide) in paragraph at lines 101--101
  \T1/pplj/m/n/10.95 ing a lin-ear iden-ti-fier (blue line), and a gaussian- 
  []
@@ -1474,13 +1474,13 @@ chapter 1.
 
 
 ] [6]
-<Figs/Chapter1/leonardo_map.jpg, id=497, 963.6pt x 642.4803pt>
+<Figs/Chapter1/leonardo_map.jpg, id=498, 963.6pt x 642.4803pt>
 File: Figs/Chapter1/leonardo_map.jpg Graphic file (type jpg)
 <use Figs/Chapter1/leonardo_map.jpg>
 Package pdftex.def Info: Figs/Chapter1/leonardo_map.jpg  used on input line 69.
 (pdftex.def)             Requested size: 336.0pt x 224.02837pt.
  [7 <./Figs/Chapter1/leonardo_map.jpg>]
-<Figs/Chapter1/drone.pdf, id=505, 845.1575pt x 597.23125pt>
+<Figs/Chapter1/drone.pdf, id=506, 845.1575pt x 597.23125pt>
 File: Figs/Chapter1/drone.pdf Graphic file (type pdf)
 <use Figs/Chapter1/drone.pdf>
 Package pdftex.def Info: Figs/Chapter1/drone.pdf  used on input line 115.
@@ -1533,11 +1533,11 @@ Overfull \hbox (4.80724pt too wide) in paragraph at lines 74--95
 
 
 Overfull \hbox (4.08453pt too wide) in paragraph at lines 74--95
-\T1/pplj/m/n/10.95 vated by the promis-ing re-sults ob-tained us-ing hy-brid ap-proaches [[][]131[][]],
+\T1/pplj/m/n/10.95 vated by the promis-ing re-sults ob-tained us-ing hy-brid ap-proaches [[][]132[][]],
  []
 
 [29] [30]
-<Figs/Chapter4/bezier_conservative.pdf, id=853, 219.7279pt x 186.72762pt>
+<Figs/Chapter4/bezier_conservative.pdf, id=854, 219.7279pt x 186.72762pt>
 File: Figs/Chapter4/bezier_conservative.pdf Graphic file (type pdf)
 <use Figs/Chapter4/bezier_conservative.pdf>
 Package pdftex.def Info: Figs/Chapter4/bezier_conservative.pdf  used on input line 153.
@@ -1547,7 +1547,7 @@ Overfull \hbox (35.57062pt too wide) in paragraph at lines 153--154
  [][] 
  []
 
-<Figs/Chapter4/bezier_envelope.pdf, id=854, 219.7279pt x 186.72762pt>
+<Figs/Chapter4/bezier_envelope.pdf, id=855, 219.7279pt x 186.72762pt>
 File: Figs/Chapter4/bezier_envelope.pdf Graphic file (type pdf)
 <use Figs/Chapter4/bezier_envelope.pdf>
 Package pdftex.def Info: Figs/Chapter4/bezier_envelope.pdf  used on input line 159.
@@ -1558,13 +1558,13 @@ Overfull \hbox (35.57062pt too wide) in paragraph at lines 159--160
  []
 
 [31] [32 <./Figs/Chapter4/bezier_conservative.pdf> <./Figs/Chapter4/bezier_envelope.pdf>] [33] [34]
-<Figs/Chapter4/full_exploration.jpg, id=936, 2890.8pt x 1475.5125pt>
+<Figs/Chapter4/full_exploration.jpg, id=937, 2890.8pt x 1475.5125pt>
 File: Figs/Chapter4/full_exploration.jpg Graphic file (type jpg)
 <use Figs/Chapter4/full_exploration.jpg>
 Package pdftex.def Info: Figs/Chapter4/full_exploration.jpg  used on input line 297.
 (pdftex.def)             Requested size: 300.10672pt x 163.15529pt.
  [35 <./Figs/Chapter4/full_exploration.jpg>] [36]
-<Figs/Chapter4/alg_scheme.pdf, id=965, 285.92723pt x 167.26088pt>
+<Figs/Chapter4/alg_scheme.pdf, id=966, 285.92723pt x 167.26088pt>
 File: Figs/Chapter4/alg_scheme.pdf Graphic file (type pdf)
 <use Figs/Chapter4/alg_scheme.pdf>
 Package pdftex.def Info: Figs/Chapter4/alg_scheme.pdf  used on input line 408.
@@ -1598,7 +1598,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/exploration_100s.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/exploration_100s-eps-converted-to.pdf Figs/Chapter4/exploration_100s.eps>
 (epstopdf)             \includegraphics on input line 503.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/exploration_100s-eps-converted-to.pdf, id=990, 562.1pt x 421.575pt>
+<Figs/Chapter4/exploration_100s-eps-converted-to.pdf, id=991, 562.1pt x 421.575pt>
 File: Figs/Chapter4/exploration_100s-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/exploration_100s-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/exploration_100s-eps-converted-to.pdf  used on input line 503.
@@ -1617,7 +1617,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/exploration_200s.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/exploration_200s-eps-converted-to.pdf Figs/Chapter4/exploration_200s.eps>
 (epstopdf)             \includegraphics on input line 509.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/exploration_200s-eps-converted-to.pdf, id=992, 562.1pt x 421.575pt>
+<Figs/Chapter4/exploration_200s-eps-converted-to.pdf, id=993, 562.1pt x 421.575pt>
 File: Figs/Chapter4/exploration_200s-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/exploration_200s-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/exploration_200s-eps-converted-to.pdf  used on input line 509.
@@ -1636,7 +1636,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/exploration_300s.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/exploration_300s-eps-converted-to.pdf Figs/Chapter4/exploration_300s.eps>
 (epstopdf)             \includegraphics on input line 515.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/exploration_300s-eps-converted-to.pdf, id=994, 562.1pt x 421.575pt>
+<Figs/Chapter4/exploration_300s-eps-converted-to.pdf, id=995, 562.1pt x 421.575pt>
 File: Figs/Chapter4/exploration_300s-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/exploration_300s-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/exploration_300s-eps-converted-to.pdf  used on input line 515.
@@ -1655,7 +1655,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/20s.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/20s-eps-converted-to.pdf Figs/Chapter4/20s.eps>
 (epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/20s-eps-converted-to.pdf, id=996, 562.1pt x 421.575pt>
+<Figs/Chapter4/20s-eps-converted-to.pdf, id=997, 562.1pt x 421.575pt>
 File: Figs/Chapter4/20s-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/20s-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/20s-eps-converted-to.pdf  used on input line 532.
@@ -1669,7 +1669,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/57s.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/57s-eps-converted-to.pdf Figs/Chapter4/57s.eps>
 (epstopdf)             \includegraphics on input line 538.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/57s-eps-converted-to.pdf, id=998, 562.1pt x 421.575pt>
+<Figs/Chapter4/57s-eps-converted-to.pdf, id=999, 562.1pt x 421.575pt>
 File: Figs/Chapter4/57s-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/57s-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/57s-eps-converted-to.pdf  used on input line 538.
@@ -1683,7 +1683,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/167s.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/167s-eps-converted-to.pdf Figs/Chapter4/167s.eps>
 (epstopdf)             \includegraphics on input line 544.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/167s-eps-converted-to.pdf, id=1000, 562.1pt x 421.575pt>
+<Figs/Chapter4/167s-eps-converted-to.pdf, id=1001, 562.1pt x 421.575pt>
 File: Figs/Chapter4/167s-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/167s-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/167s-eps-converted-to.pdf  used on input line 544.
@@ -1697,7 +1697,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/mapped_volume.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/mapped_volume-eps-converted-to.pdf Figs/Chapter4/mapped_volume.eps>
 (epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/mapped_volume-eps-converted-to.pdf, id=1008, 562.1pt x 421.575pt>
+<Figs/Chapter4/mapped_volume-eps-converted-to.pdf, id=1009, 562.1pt x 421.575pt>
 File: Figs/Chapter4/mapped_volume-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/mapped_volume-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/mapped_volume-eps-converted-to.pdf  used on input line 574.
@@ -1711,13 +1711,13 @@ Package epstopdf Info: Source file: <Figs/Chapter4/traveled_distance.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/traveled_distance-eps-converted-to.pdf Figs/Chapter4/traveled_distance.eps>
 (epstopdf)             \includegraphics on input line 582.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/traveled_distance-eps-converted-to.pdf, id=1010, 562.1pt x 421.575pt>
+<Figs/Chapter4/traveled_distance-eps-converted-to.pdf, id=1011, 562.1pt x 421.575pt>
 File: Figs/Chapter4/traveled_distance-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/traveled_distance-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/traveled_distance-eps-converted-to.pdf  used on input line 582.
 (pdftex.def)             Requested size: 224.83601pt x 168.627pt.
 [39] [40 <./Figs/Chapter4/exploration_100s-eps-converted-to.pdf> <./Figs/Chapter4/exploration_200s-eps-converted-to.pdf> <./Figs/Chapter4/exploration_300s-eps-converted-to.pdf>] [41 <./Figs/Chapter4/20s-eps-converted-to.pdf> <./Figs/Chapter4/57s-eps-converted-to.pdf> <./Figs/Chapter4/167s-eps-converted-to.pdf>] [42 <./Figs/Chapter4/mapped_volume-eps-converted-to.pdf> <./Figs/Chapter4/traveled_distance-eps-converted-to.pdf>] [43]
-<Figs/Chapter4/camera_fov.pdf, id=1098, 214.5857pt x 181.64963pt>
+<Figs/Chapter4/camera_fov.pdf, id=1099, 214.5857pt x 181.64963pt>
 File: Figs/Chapter4/camera_fov.pdf Graphic file (type pdf)
 <use Figs/Chapter4/camera_fov.pdf>
 Package pdftex.def Info: Figs/Chapter4/camera_fov.pdf  used on input line 634.
@@ -1728,7 +1728,7 @@ Overfull \hbox (0.75653pt too wide) in paragraph at lines 639--648
  []
 
 [44 <./Figs/Chapter4/camera_fov.pdf>] [45]
-<Figs/Chapter4/map_discretization.pdf, id=1123, 99.21367pt x 99.21367pt>
+<Figs/Chapter4/map_discretization.pdf, id=1124, 99.21367pt x 99.21367pt>
 File: Figs/Chapter4/map_discretization.pdf Graphic file (type pdf)
 <use Figs/Chapter4/map_discretization.pdf>
 Package pdftex.def Info: Figs/Chapter4/map_discretization.pdf  used on input line 738.
@@ -1748,7 +1748,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_map_1steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_map_1steps-eps-converted-to.pdf Figs/Chapter4/search_map_1steps.eps>
 (epstopdf)             \includegraphics on input line 927.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_map_1steps-eps-converted-to.pdf, id=1188, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_map_1steps-eps-converted-to.pdf, id=1189, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_map_1steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_map_1steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_map_1steps-eps-converted-to.pdf  used on input line 927.
@@ -1762,7 +1762,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_map_2steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_map_2steps-eps-converted-to.pdf Figs/Chapter4/search_map_2steps.eps>
 (epstopdf)             \includegraphics on input line 933.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_map_2steps-eps-converted-to.pdf, id=1190, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_map_2steps-eps-converted-to.pdf, id=1191, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_map_2steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_map_2steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_map_2steps-eps-converted-to.pdf  used on input line 933.
@@ -1776,7 +1776,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_map_5steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_map_5steps-eps-converted-to.pdf Figs/Chapter4/search_map_5steps.eps>
 (epstopdf)             \includegraphics on input line 939.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_map_5steps-eps-converted-to.pdf, id=1192, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_map_5steps-eps-converted-to.pdf, id=1193, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_map_5steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_map_5steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_map_5steps-eps-converted-to.pdf  used on input line 939.
@@ -1791,7 +1791,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_traj_1steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_traj_1steps-eps-converted-to.pdf Figs/Chapter4/search_traj_1steps.eps>
 (epstopdf)             \includegraphics on input line 978.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_traj_1steps-eps-converted-to.pdf, id=1236, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_traj_1steps-eps-converted-to.pdf, id=1237, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_traj_1steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_traj_1steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_traj_1steps-eps-converted-to.pdf  used on input line 978.
@@ -1805,7 +1805,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_traj_2steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_traj_2steps-eps-converted-to.pdf Figs/Chapter4/search_traj_2steps.eps>
 (epstopdf)             \includegraphics on input line 984.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_traj_2steps-eps-converted-to.pdf, id=1238, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_traj_2steps-eps-converted-to.pdf, id=1239, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_traj_2steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_traj_2steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_traj_2steps-eps-converted-to.pdf  used on input line 984.
@@ -1819,7 +1819,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_traj_5steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_traj_5steps-eps-converted-to.pdf Figs/Chapter4/search_traj_5steps.eps>
 (epstopdf)             \includegraphics on input line 990.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_traj_5steps-eps-converted-to.pdf, id=1240, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_traj_5steps-eps-converted-to.pdf, id=1241, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_traj_5steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_traj_5steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_traj_5steps-eps-converted-to.pdf  used on input line 990.
@@ -1833,7 +1833,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_cost_1steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_cost_1steps-eps-converted-to.pdf Figs/Chapter4/search_cost_1steps.eps>
 (epstopdf)             \includegraphics on input line 1005.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_cost_1steps-eps-converted-to.pdf, id=1244, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_cost_1steps-eps-converted-to.pdf, id=1245, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_cost_1steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_cost_1steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_cost_1steps-eps-converted-to.pdf  used on input line 1005.
@@ -1847,7 +1847,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_cost_2steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_cost_2steps-eps-converted-to.pdf Figs/Chapter4/search_cost_2steps.eps>
 (epstopdf)             \includegraphics on input line 1011.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_cost_2steps-eps-converted-to.pdf, id=1246, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_cost_2steps-eps-converted-to.pdf, id=1247, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_cost_2steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_cost_2steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_cost_2steps-eps-converted-to.pdf  used on input line 1011.
@@ -1861,7 +1861,7 @@ Package epstopdf Info: Source file: <Figs/Chapter4/search_cost_5steps.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter4/search_cost_5steps-eps-converted-to.pdf Figs/Chapter4/search_cost_5steps.eps>
 (epstopdf)             \includegraphics on input line 1017.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter4/search_cost_5steps-eps-converted-to.pdf, id=1248, 562.1pt x 421.575pt>
+<Figs/Chapter4/search_cost_5steps-eps-converted-to.pdf, id=1249, 562.1pt x 421.575pt>
 File: Figs/Chapter4/search_cost_5steps-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter4/search_cost_5steps-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter4/search_cost_5steps-eps-converted-to.pdf  used on input line 1017.
@@ -1878,42 +1878,33 @@ Package pdftex.def Info: Figs/Chapter4/search_cost_5steps-eps-converted-to.pdf  
 ]
 chapter 5.
 
-Overfull \hbox (0.9747pt too wide) in paragraph at lines 22--40
-\T1/pplj/m/n/10.95 ods re-for-mu-late the tra-jec-tory plan-ning as a con-vex op-ti-mi-sa-tion prob-
+Overfull \hbox (6.14993pt too wide) in paragraph at lines 22--56
+\T1/pplj/m/n/10.95 into two cat-e-gories: \T1/pplj/m/it/10.95 hard-constrained \T1/pplj/m/n/10.95 and \T1/pplj/m/it/10.95 soft-constrained \T1/pplj/m/n/10.95 meth-ods. Hard-
  []
 
-
-Overfull \hbox (6.15486pt too wide) in paragraph at lines 22--40
-\T1/pplj/m/n/10.95 lem, this idea is pi-o-neered by [[][]102[][]] that pro-poses to gen-er-ate minimum-
- []
-
-
-Overfull \hbox (18.03484pt too wide) in paragraph at lines 22--40
-\T1/pplj/m/n/10.95 snap tra-jec-to-ries via Quadratic Pro-gram-ming (QP) ap-proach, and by [[][]127[][]]
- []
-
-
-Overfull \hbox (21.94856pt too wide) in paragraph at lines 22--40
-\T1/pplj/m/n/10.95 used as con-vex con-straints in-side the op-ti-mi-sa-tion prob-lem. The works [[][]35[][],
- []
-
-[57]
+[57] [58]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 65.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 69.
+(hyperref)                removing `superscript' on input line 65.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\star' on input line 69.
+(hyperref)                removing `\star' on input line 65.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 69.
+(hyperref)                removing `math shift' on input line 65.
 
+
+Overfull \hbox (2.4749pt too wide) in paragraph at lines 85--90
+\T1/pplj/m/n/10.95 The afor-men-tioned for-mu-la-tion cor-re-spond to a Lin-ear Time-Invariant
+ []
+
+[59] [60] [61]
 Package epstopdf Info: Source file: <Figs/Chapter5/planning-full.eps>
 (epstopdf)                    date: 2023-04-02 10:42:02
 (epstopdf)                    size: 417950 bytes
@@ -1921,15 +1912,15 @@ Package epstopdf Info: Source file: <Figs/Chapter5/planning-full.eps>
 (epstopdf)                    date: 2023-04-02 11:30:15
 (epstopdf)                    size: 173029 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter5/planning-full-eps-converted-to.pdf Figs/Chapter5/planning-full.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 254.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter5/planning-full-eps-converted-to.pdf, id=1336, 562.1pt x 421.575pt>
+<Figs/Chapter5/planning-full-eps-converted-to.pdf, id=1392, 562.1pt x 421.575pt>
 File: Figs/Chapter5/planning-full-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter5/planning-full-eps-converted-to.pdf>
-Package pdftex.def Info: Figs/Chapter5/planning-full-eps-converted-to.pdf  used on input line 82.
+Package pdftex.def Info: Figs/Chapter5/planning-full-eps-converted-to.pdf  used on input line 254.
 (pdftex.def)             Requested size: 158.75938pt x 117.57416pt.
 
-Overfull \hbox (7.56041pt too wide) in paragraph at lines 82--83
+Overfull \hbox (7.56041pt too wide) in paragraph at lines 254--255
  [][] 
  []
 
@@ -1940,19 +1931,18 @@ Package epstopdf Info: Source file: <Figs/Chapter5/planning-full-2.eps>
 (epstopdf)                    date: 2023-04-02 11:30:15
 (epstopdf)                    size: 174027 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter5/planning-full-2-eps-converted-to.pdf Figs/Chapter5/planning-full-2.eps>
-(epstopdf)             \includegraphics on input line 88.
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter5/planning-full-2-eps-converted-to.pdf, id=1338, 562.1pt x 421.575pt>
+<Figs/Chapter5/planning-full-2-eps-converted-to.pdf, id=1394, 562.1pt x 421.575pt>
 File: Figs/Chapter5/planning-full-2-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter5/planning-full-2-eps-converted-to.pdf>
-Package pdftex.def Info: Figs/Chapter5/planning-full-2-eps-converted-to.pdf  used on input line 88.
+Package pdftex.def Info: Figs/Chapter5/planning-full-2-eps-converted-to.pdf  used on input line 260.
 (pdftex.def)             Requested size: 158.75938pt x 117.57416pt.
 
-Overfull \hbox (7.56041pt too wide) in paragraph at lines 88--89
+Overfull \hbox (7.56041pt too wide) in paragraph at lines 260--261
  [][] 
  []
 
-[58]
 Package epstopdf Info: Source file: <Figs/Chapter5/planning-traj.eps>
 (epstopdf)                    date: 2023-04-02 10:42:30
 (epstopdf)                    size: 9818 bytes
@@ -1960,15 +1950,15 @@ Package epstopdf Info: Source file: <Figs/Chapter5/planning-traj.eps>
 (epstopdf)                    date: 2023-04-02 11:31:31
 (epstopdf)                    size: 10713 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter5/planning-traj-eps-converted-to.pdf Figs/Chapter5/planning-traj.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter5/planning-traj-eps-converted-to.pdf, id=1356, 562.1pt x 421.575pt>
+<Figs/Chapter5/planning-traj-eps-converted-to.pdf, id=1396, 562.1pt x 421.575pt>
 File: Figs/Chapter5/planning-traj-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter5/planning-traj-eps-converted-to.pdf>
-Package pdftex.def Info: Figs/Chapter5/planning-traj-eps-converted-to.pdf  used on input line 101.
+Package pdftex.def Info: Figs/Chapter5/planning-traj-eps-converted-to.pdf  used on input line 274.
 (pdftex.def)             Requested size: 158.75938pt x 117.57416pt.
 
-Overfull \hbox (7.56041pt too wide) in paragraph at lines 101--102
+Overfull \hbox (7.56041pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
@@ -1979,30 +1969,30 @@ Package epstopdf Info: Source file: <Figs/Chapter5/planning-traj-2.eps>
 (epstopdf)                    date: 2023-04-02 11:31:31
 (epstopdf)                    size: 11354 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter5/planning-traj-2-eps-converted-to.pdf Figs/Chapter5/planning-traj-2.eps>
-(epstopdf)             \includegraphics on input line 107.
+(epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter5/planning-traj-2-eps-converted-to.pdf, id=1358, 562.1pt x 421.575pt>
+<Figs/Chapter5/planning-traj-2-eps-converted-to.pdf, id=1398, 562.1pt x 421.575pt>
 File: Figs/Chapter5/planning-traj-2-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter5/planning-traj-2-eps-converted-to.pdf>
-Package pdftex.def Info: Figs/Chapter5/planning-traj-2-eps-converted-to.pdf  used on input line 107.
+Package pdftex.def Info: Figs/Chapter5/planning-traj-2-eps-converted-to.pdf  used on input line 280.
 (pdftex.def)             Requested size: 158.75938pt x 117.57416pt.
 
-Overfull \hbox (7.56041pt too wide) in paragraph at lines 107--108
+Overfull \hbox (7.56041pt too wide) in paragraph at lines 280--281
  [][] 
  []
 
-) [59 <./Figs/Chapter5/planning-full-eps-converted-to.pdf> <./Figs/Chapter5/planning-full-2-eps-converted-to.pdf> <./Figs/Chapter5/planning-traj-eps-converted-to.pdf> <./Figs/Chapter5/planning-traj-2-eps-converted-to.pdf>]
+[62] [63 <./Figs/Chapter5/planning-full-eps-converted-to.pdf> <./Figs/Chapter5/planning-full-2-eps-converted-to.pdf> <./Figs/Chapter5/planning-traj-eps-converted-to.pdf> <./Figs/Chapter5/planning-traj-2-eps-converted-to.pdf>]) [64]
 \openout2 = `Chapters/Chapter06.aux'.
 
- (./Chapters/Chapter06.tex [60
-
-
-
-
-
-]
+ (./Chapters/Chapter06.tex
 chapter 6.
-[61] [62] [63] [64] [65] [66] [67] [68]
+[65
+
+
+
+
+
+] [66] [67] [68] [69] [70] [71] [72]
 Package epstopdf Info: Source file: <Figs/Chapter6/replan_3d_traj_1.eps>
 (epstopdf)                    date: 2023-01-03 14:33:48
 (epstopdf)                    size: 442137 bytes
@@ -2012,7 +2002,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_3d_traj_1.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf Figs/Chapter6/replan_3d_traj_1.eps>
 (epstopdf)             \includegraphics on input line 279.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf, id=1491, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf, id=1541, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf  used on input line 279.
@@ -2031,7 +2021,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_3d_traj.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf Figs/Chapter6/replan_3d_traj.eps>
 (epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf, id=1493, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf, id=1543, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf  used on input line 285.
@@ -2041,7 +2031,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
-[69]
+[73]
 Package epstopdf Info: Source file: <Figs/Chapter6/replan_init_vel.eps>
 (epstopdf)                    date: 2023-01-03 14:28:55
 (epstopdf)                    size: 23425 bytes
@@ -2051,7 +2041,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_init_vel.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_init_vel-eps-converted-to.pdf Figs/Chapter6/replan_init_vel.eps>
 (epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_init_vel-eps-converted-to.pdf, id=1503, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_init_vel-eps-converted-to.pdf, id=1552, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_init_vel-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_init_vel-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_init_vel-eps-converted-to.pdf  used on input line 344.
@@ -2070,7 +2060,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_post_vel.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_post_vel-eps-converted-to.pdf Figs/Chapter6/replan_post_vel.eps>
 (epstopdf)             \includegraphics on input line 350.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_post_vel-eps-converted-to.pdf, id=1504, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_post_vel-eps-converted-to.pdf, id=1553, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_post_vel-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_post_vel-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_post_vel-eps-converted-to.pdf  used on input line 350.
@@ -2080,7 +2070,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 350--351
  [][] 
  []
 
-[70 <./Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf> <./Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf>]
+[74 <./Figs/Chapter6/replan_3d_traj_1-eps-converted-to.pdf> <./Figs/Chapter6/replan_3d_traj-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figs/Chapter6/replan_init_acc.eps>
 (epstopdf)                    date: 2023-01-03 14:29:36
 (epstopdf)                    size: 23236 bytes
@@ -2090,7 +2080,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_init_acc.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_init_acc-eps-converted-to.pdf Figs/Chapter6/replan_init_acc.eps>
 (epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_init_acc-eps-converted-to.pdf, id=1523, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_init_acc-eps-converted-to.pdf, id=1572, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_init_acc-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_init_acc-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_init_acc-eps-converted-to.pdf  used on input line 368.
@@ -2109,7 +2099,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_post_acc.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_post_acc-eps-converted-to.pdf Figs/Chapter6/replan_post_acc.eps>
 (epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_post_acc-eps-converted-to.pdf, id=1524, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_post_acc-eps-converted-to.pdf, id=1573, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_post_acc-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_post_acc-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_post_acc-eps-converted-to.pdf  used on input line 374.
@@ -2128,7 +2118,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_init_jerk.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf Figs/Chapter6/replan_init_jerk.eps>
 (epstopdf)             \includegraphics on input line 392.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf, id=1525, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf, id=1574, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf  used on input line 392.
@@ -2147,7 +2137,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_post_jerk.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf Figs/Chapter6/replan_post_jerk.eps>
 (epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf, id=1526, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf, id=1575, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf  used on input line 398.
@@ -2166,7 +2156,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_3d_traj_exploration_1.
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf Figs/Chapter6/replan_3d_traj_exploration_1.eps>
 (epstopdf)             \includegraphics on input line 416.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf, id=1527, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf, id=1576, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf  used on input line 416.
@@ -2185,7 +2175,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/replan_3d_traj_exploration.ep
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf Figs/Chapter6/replan_3d_traj_exploration.eps>
 (epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf, id=1529, 562.1pt x 421.575pt>
+<Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf, id=1578, 562.1pt x 421.575pt>
 File: Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf  used on input line 422.
@@ -2195,7 +2185,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 422--423
  [][] 
  []
 
-[71 <./Figs/Chapter6/replan_init_vel-eps-converted-to.pdf> <./Figs/Chapter6/replan_post_vel-eps-converted-to.pdf> <./Figs/Chapter6/replan_init_acc-eps-converted-to.pdf> <./Figs/Chapter6/replan_post_acc-eps-converted-to.pdf>] [72 <./Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf> <./Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf> <./Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf> <./Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf>] [73]
+[75 <./Figs/Chapter6/replan_init_vel-eps-converted-to.pdf> <./Figs/Chapter6/replan_post_vel-eps-converted-to.pdf> <./Figs/Chapter6/replan_init_acc-eps-converted-to.pdf> <./Figs/Chapter6/replan_post_acc-eps-converted-to.pdf>] [76 <./Figs/Chapter6/replan_3d_traj_exploration_1-eps-converted-to.pdf> <./Figs/Chapter6/replan_3d_traj_exploration-eps-converted-to.pdf> <./Figs/Chapter6/replan_init_jerk-eps-converted-to.pdf> <./Figs/Chapter6/replan_post_jerk-eps-converted-to.pdf>] [77]
 Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_timetraj_coll.eps>
 (epstopdf)                    date: 2023-01-02 10:23:24
 (epstopdf)                    size: 47600 bytes
@@ -2205,7 +2195,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_timetraj_coll.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf Figs/Chapter6/st_bezier_timetraj_coll.eps>
 (epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf, id=1617, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf, id=1667, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf  used on input line 506.
@@ -2219,17 +2209,17 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_convexhull_coll.eps
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf Figs/Chapter6/st_bezier_convexhull_coll.eps>
 (epstopdf)             \includegraphics on input line 517.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf, id=1618, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf, id=1668, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf  used on input line 517.
 (pdftex.def)             Requested size: 201.60205pt x 151.20079pt.
- [74 <./Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf>] [75 <./Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf>]
+ [78 <./Figs/Chapter6/st_bezier_timetraj_coll-eps-converted-to.pdf>] [79 <./Figs/Chapter6/st_bezier_convexhull_coll-eps-converted-to.pdf>]
 Overfull \hbox (6.35202pt too wide) in paragraph at lines 608--612
 \T1/pplj/m/n/10.95 The fi-nal step con-sists in con-vert-ing the axis-wise dis-tance, to a squared
  []
 
-[76]
+[80]
 Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_inital_setting_2d.eps>
 (epstopdf)                    date: 2023-01-02 22:10:21
 (epstopdf)                    size: 34483 bytes
@@ -2239,7 +2229,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_inital_setting_2d.e
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_inital_setting_2d.eps>
 (epstopdf)             \includegraphics on input line 682.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf, id=1662, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf, id=1711, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf  used on input line 682.
@@ -2258,7 +2248,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_corridors_2d.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_corridors_2d.eps>
 (epstopdf)             \includegraphics on input line 688.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf, id=1663, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf, id=1712, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf  used on input line 688.
@@ -2277,7 +2267,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_inital_2d.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_inital_2d.eps>
 (epstopdf)             \includegraphics on input line 705.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf, id=1664, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf, id=1713, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf  used on input line 705.
@@ -2296,7 +2286,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_inital_distance_2d.
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_inital_distance_2d.eps>
 (epstopdf)             \includegraphics on input line 711.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf, id=1665, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf, id=1714, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf  used on input line 711.
@@ -2306,7 +2296,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 711--712
  [][] 
  []
 
-[77] [78 <./Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf>]
+[81] [82 <./Figs/Chapter6/st_bezier_inital_setting_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_corridors_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_distance_2d-eps-converted-to.pdf>]
 Overfull \hbox (30.84381pt too wide) detected at line 791
   $ [] $ 
  []
@@ -2316,7 +2306,7 @@ Overfull \hbox (34.11192pt too wide) detected at line 801
   $[][]$ 
  []
 
-[79]
+[83]
 Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_u_opt_2d.eps>
 (epstopdf)                    date: 2023-01-02 22:08:35
 (epstopdf)                    size: 50427 bytes
@@ -2326,7 +2316,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_u_opt_2d.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_u_opt_2d.eps>
 (epstopdf)             \includegraphics on input line 837.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf, id=1719, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf, id=1768, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf  used on input line 837.
@@ -2345,7 +2335,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_u_opt_distance_2d.e
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_u_opt_distance_2d.eps>
 (epstopdf)             \includegraphics on input line 843.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf, id=1720, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf, id=1769, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf  used on input line 843.
@@ -2364,7 +2354,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_pu_opt_2d.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_pu_opt_2d.eps>
 (epstopdf)             \includegraphics on input line 860.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf, id=1723, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf, id=1772, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf  used on input line 860.
@@ -2383,7 +2373,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_pu_opt_distance_2d.
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf Figs/Chapter6/st_bezier_pu_opt_distance_2d.eps>
 (epstopdf)             \includegraphics on input line 866.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf, id=1724, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf, id=1773, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf  used on input line 866.
@@ -2402,7 +2392,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_inital_setting_3d.e
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf Figs/Chapter6/st_bezier_inital_setting_3d.eps>
 (epstopdf)             \includegraphics on input line 883.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf, id=1725, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf, id=1774, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf  used on input line 883.
@@ -2421,7 +2411,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_inital_distance_3d.
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf Figs/Chapter6/st_bezier_inital_distance_3d.eps>
 (epstopdf)             \includegraphics on input line 889.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf, id=1726, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf, id=1775, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf  used on input line 889.
@@ -2440,7 +2430,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_u_opt_3d.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf Figs/Chapter6/st_bezier_u_opt_3d.eps>
 (epstopdf)             \includegraphics on input line 905.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf, id=1727, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf, id=1776, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf  used on input line 905.
@@ -2459,7 +2449,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_u_opt_distance_3d.e
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf Figs/Chapter6/st_bezier_u_opt_distance_3d.eps>
 (epstopdf)             \includegraphics on input line 911.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf, id=1728, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf, id=1777, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf  used on input line 911.
@@ -2478,7 +2468,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_pu_opt_3d.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf Figs/Chapter6/st_bezier_pu_opt_3d.eps>
 (epstopdf)             \includegraphics on input line 928.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf, id=1731, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf, id=1780, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf  used on input line 928.
@@ -2497,7 +2487,7 @@ Package epstopdf Info: Source file: <Figs/Chapter6/st_bezier_pu_opt_distance_3d.
 (epstopdf)             Command: <repstopdf --outfile=Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf Figs/Chapter6/st_bezier_pu_opt_distance_3d.eps>
 (epstopdf)             \includegraphics on input line 934.
 Package epstopdf Info: Output file is already uptodate.
-<Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf, id=1732, 562.1pt x 421.575pt>
+<Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf, id=1781, 562.1pt x 421.575pt>
 File: Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf Graphic file (type pdf)
 <use Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf>
 Package pdftex.def Info: Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf  used on input line 934.
@@ -2507,16 +2497,16 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 934--935
  [][] 
  []
 
-[80 <./Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf>] [81 <./Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf>] [82 <./Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf>] [83] [84]
+[84 <./Figs/Chapter6/st_bezier_u_opt_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_u_opt_distance_2d-eps-converted-to.pdf>] [85 <./Figs/Chapter6/st_bezier_pu_opt_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_pu_opt_distance_2d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_setting_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_inital_distance_3d-eps-converted-to.pdf>] [86 <./Figs/Chapter6/st_bezier_u_opt_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_u_opt_distance_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_pu_opt_3d-eps-converted-to.pdf> <./Figs/Chapter6/st_bezier_pu_opt_distance_3d-eps-converted-to.pdf>] [87] [88]
 Overfull \hbox (2.29056pt too wide) in paragraph at lines 1074--1084
 \OMS/zplm/m/n/10.95 f[] \OT1/pplx/m/n/10.95 , [] , []\OMS/zplm/m/n/10.95 g$ \T1/pplj/m/n/10.95 of $\OML/zplm/m/it/10.95 N$ \T1/pplj/m/n/10.95 sam-ples, with each pair $\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 x\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 t[]\OT1/zplm/m/n/10.95 )\OT1/pplx/m/n/10.95 ,$
  []
 
 
-LaTeX Warning: Reference `SEC:GAUSSIAN-PROCESS-APPENDIX' on page 85 undefined on input line 1094.
+LaTeX Warning: Reference `SEC:GAUSSIAN-PROCESS-APPENDIX' on page 89 undefined on input line 1094.
 
-[85]
-<Figs/Chapter6/cbf_0505.png, id=1895, 462.528pt x 346.896pt>
+[89]
+<Figs/Chapter6/cbf_0505.png, id=1945, 462.528pt x 346.896pt>
 File: Figs/Chapter6/cbf_0505.png Graphic file (type png)
 <use Figs/Chapter6/cbf_0505.png>
 Package pdftex.def Info: Figs/Chapter6/cbf_0505.png  used on input line 1135.
@@ -2526,7 +2516,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 1135--1136
  [][] 
  []
 
-<Figs/Chapter6/cbf_0505_gp.png, id=1897, 462.528pt x 346.896pt>
+<Figs/Chapter6/cbf_0505_gp.png, id=1947, 462.528pt x 346.896pt>
 File: Figs/Chapter6/cbf_0505_gp.png Graphic file (type png)
 <use Figs/Chapter6/cbf_0505_gp.png>
 Package pdftex.def Info: Figs/Chapter6/cbf_0505_gp.png  used on input line 1141.
@@ -2536,7 +2526,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 1141--1142
  [][] 
  []
 
-<Figs/Chapter6/cbf_0505_gp_hg.png, id=1898, 462.528pt x 346.896pt>
+<Figs/Chapter6/cbf_0505_gp_hg.png, id=1948, 462.528pt x 346.896pt>
 File: Figs/Chapter6/cbf_0505_gp_hg.png Graphic file (type png)
 <use Figs/Chapter6/cbf_0505_gp_hg.png>
 Package pdftex.def Info: Figs/Chapter6/cbf_0505_gp_hg.png  used on input line 1147.
@@ -2546,8 +2536,8 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 1147--1148
  [][] 
  []
 
-[86] [87 <./Figs/Chapter6/cbf_0505.png> <./Figs/Chapter6/cbf_0505_gp.png> <./Figs/Chapter6/cbf_0505_gp_hg.png>]
-<Figs/Chapter6/cbf_0505_gp_hg_test_1.png, id=1930, 462.528pt x 346.896pt>
+[90] [91 <./Figs/Chapter6/cbf_0505.png> <./Figs/Chapter6/cbf_0505_gp.png> <./Figs/Chapter6/cbf_0505_gp_hg.png>]
+<Figs/Chapter6/cbf_0505_gp_hg_test_1.png, id=1980, 462.528pt x 346.896pt>
 File: Figs/Chapter6/cbf_0505_gp_hg_test_1.png Graphic file (type png)
 <use Figs/Chapter6/cbf_0505_gp_hg_test_1.png>
 Package pdftex.def Info: Figs/Chapter6/cbf_0505_gp_hg_test_1.png  used on input line 1255.
@@ -2557,7 +2547,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 1255--1256
  [][] 
  []
 
-<Figs/Chapter6/cbf_0505_gp_hg_test_2.png, id=1931, 462.528pt x 346.896pt>
+<Figs/Chapter6/cbf_0505_gp_hg_test_2.png, id=1981, 462.528pt x 346.896pt>
 File: Figs/Chapter6/cbf_0505_gp_hg_test_2.png Graphic file (type png)
 <use Figs/Chapter6/cbf_0505_gp_hg_test_2.png>
 Package pdftex.def Info: Figs/Chapter6/cbf_0505_gp_hg_test_2.png  used on input line 1261.
@@ -2567,7 +2557,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 1261--1262
  [][] 
  []
 
-<Figs/Chapter6/cbf_0505_gp_hg_norm_test_1.png, id=1932, 462.528pt x 346.896pt>
+<Figs/Chapter6/cbf_0505_gp_hg_norm_test_1.png, id=1982, 462.528pt x 346.896pt>
 File: Figs/Chapter6/cbf_0505_gp_hg_norm_test_1.png Graphic file (type png)
 <use Figs/Chapter6/cbf_0505_gp_hg_norm_test_1.png>
 Package pdftex.def Info: Figs/Chapter6/cbf_0505_gp_hg_norm_test_1.png  used on input line 1277.
@@ -2577,7 +2567,7 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 1277--1278
  [][] 
  []
 
-<Figs/Chapter6/cbf_0505_gp_hg_norm_test_2.png, id=1933, 462.528pt x 346.896pt>
+<Figs/Chapter6/cbf_0505_gp_hg_norm_test_2.png, id=1983, 462.528pt x 346.896pt>
 File: Figs/Chapter6/cbf_0505_gp_hg_norm_test_2.png Graphic file (type png)
 <use Figs/Chapter6/cbf_0505_gp_hg_norm_test_2.png>
 Package pdftex.def Info: Figs/Chapter6/cbf_0505_gp_hg_norm_test_2.png  used on input line 1283.
@@ -2587,14 +2577,14 @@ Overfull \hbox (7.56041pt too wide) in paragraph at lines 1283--1284
  [][] 
  []
 
-[88] [89 <./Figs/Chapter6/cbf_0505_gp_hg_test_1.png> <./Figs/Chapter6/cbf_0505_gp_hg_test_2.png> <./Figs/Chapter6/cbf_0505_gp_hg_norm_test_1.png> <./Figs/Chapter6/cbf_0505_gp_hg_norm_test_2.png>]) [90] [91
+[92] [93 <./Figs/Chapter6/cbf_0505_gp_hg_test_1.png> <./Figs/Chapter6/cbf_0505_gp_hg_test_2.png> <./Figs/Chapter6/cbf_0505_gp_hg_norm_test_1.png> <./Figs/Chapter6/cbf_0505_gp_hg_norm_test_2.png>]) [94] [95
 
 
 
 
 
 
-] [92]
+] [96]
 \openout2 = `Chapters/Chapter07.aux'.
 
  (./Chapters/Chapter07.tex
@@ -2604,11 +2594,11 @@ Overfull \hbox (8.40996pt too wide) in paragraph at lines 45--48
 []\T1/pplj/m/n/10.95 The ori-gin of the in-ter-con-nec-tion be-tween Equa-tion [] and Equa-
  []
 
-[93
+[97
 
 
 
-] [94]
+] [98]
 Overfull \hbox (10.21527pt too wide) in paragraph at lines 89--89
 |[]\T1/pplj/m/sc/10.95/80ls identification-based post-processing in-ter-nal model| 
  []
@@ -2618,34 +2608,34 @@ Overfull \hbox (0.55858pt too wide) has occurred while \output is active
  []|[]|
  []
 
-[95] [96]
+[99] [100]
 Overfull \hbox (0.55858pt too wide) has occurred while \output is active
  []|[]|
  []
 
-[97] [98]
+[101] [102]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 341.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 341.
- [99]
-<Figs/Chapter8-9/postprocessing_vtol.png, id=2073, 651.43375pt x 444.66125pt>
+ [103]
+<Figs/Chapter8-9/postprocessing_vtol.png, id=2122, 651.43375pt x 444.66125pt>
 File: Figs/Chapter8-9/postprocessing_vtol.png Graphic file (type png)
 <use Figs/Chapter8-9/postprocessing_vtol.png>
 Package pdftex.def Info: Figs/Chapter8-9/postprocessing_vtol.png  used on input line 367.
 (pdftex.def)             Requested size: 268.80103pt x 183.48608pt.
- [100 <./Figs/Chapter8-9/postprocessing_vtol.png>] [101] [102] [103] [104]
-<Figs/Chapter8-9/postprocessing_lin_example.pdf, id=2153, 578.16pt x 433.62pt>
+ [104 <./Figs/Chapter8-9/postprocessing_vtol.png>] [105] [106] [107] [108]
+<Figs/Chapter8-9/postprocessing_lin_example.pdf, id=2203, 578.16pt x 433.62pt>
 File: Figs/Chapter8-9/postprocessing_lin_example.pdf Graphic file (type pdf)
 <use Figs/Chapter8-9/postprocessing_lin_example.pdf>
 Package pdftex.def Info: Figs/Chapter8-9/postprocessing_lin_example.pdf  used on input line 618.
 (pdftex.def)             Requested size: 336.0pt x 251.99602pt.
-<Figs/Chapter8-9/postprocessing_pow_example.pdf, id=2162, 578.16pt x 433.62pt>
+<Figs/Chapter8-9/postprocessing_pow_example.pdf, id=2212, 578.16pt x 433.62pt>
 File: Figs/Chapter8-9/postprocessing_pow_example.pdf Graphic file (type pdf)
 <use Figs/Chapter8-9/postprocessing_pow_example.pdf>
 Package pdftex.def Info: Figs/Chapter8-9/postprocessing_pow_example.pdf  used on input line 630.
 (pdftex.def)             Requested size: 336.0pt x 251.99602pt.
-<Figs/Chapter8-9/postprocessing_atan_example.pdf, id=2169, 578.16pt x 433.62pt>
+<Figs/Chapter8-9/postprocessing_atan_example.pdf, id=2219, 578.16pt x 433.62pt>
 File: Figs/Chapter8-9/postprocessing_atan_example.pdf Graphic file (type pdf)
 <use Figs/Chapter8-9/postprocessing_atan_example.pdf>
 Package pdftex.def Info: Figs/Chapter8-9/postprocessing_atan_example.pdf  used on input line 639.
@@ -2655,10 +2645,10 @@ Overfull \hbox (13.34378pt too wide) in paragraph at lines 687--691
 \T1/pplj/m/n/10.95 and an-gu-lar $[]$ dy-nam-ics of a Vertical-TakeOff-and-Landing (VTOL)
  []
 
-[105]
+[109]
 Overfull \vbox (30.10843pt too high) has occurred while \output is active []
 
- [106 <./Figs/Chapter8-9/postprocessing_lin_example.pdf>] [107 <./Figs/Chapter8-9/postprocessing_pow_example.pdf>]
+ [110 <./Figs/Chapter8-9/postprocessing_lin_example.pdf>] [111 <./Figs/Chapter8-9/postprocessing_pow_example.pdf>]
 Overfull \hbox (8.6119pt too wide) in paragraph at lines 741--746
 \OT1/pplx/m/n/10.95 2\OML/zplm/m/it/10.95 d\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 w\OT1/zplm/m/n/10.95 )([][] + \OML/zplm/m/it/10.95 d\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 w\OT1/zplm/m/n/10.95 )[])(\OML/zplm/m/it/10.95 L[]d\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 w\OT1/zplm/m/n/10.95 ))[])/\OT1/pplx/m/n/10.95 2[]\OML/zplm/m/it/10.95 J[]\OT1/zplm/m/n/10.95 ([][] + \OML/zplm/m/it/10.95 d\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 w\OT1/zplm/m/n/10.95 )[])$\T1/pplj/m/n/10.95 , and As-sump-tion [][]7.4.3[][]
  []
@@ -2668,12 +2658,12 @@ Overfull \hbox (3.47786pt too wide) in paragraph at lines 741--746
 \T1/pplj/m/n/10.95 ful-filled on each com-pact set with $\OMS/zplm/m/n/10.95 L$ \T1/pplj/m/n/10.95 a neg-a-tive num-ber. With $[]$
  []
 
-[108 <./Figs/Chapter8-9/postprocessing_atan_example.pdf>]
+[112 <./Figs/Chapter8-9/postprocessing_atan_example.pdf>]
 Overfull \hbox (3.8752pt too wide) in paragraph at lines 800--800
 |[]\T1/pplj/m/sc/10.95/80ls identification-based pre-processing in-ter-nal model| 
  []
 
-[109]
+[113]
 Overfull \hbox (16.94931pt too wide) in paragraph at lines 920--920
  [] [][] \OMS/zplm/m/n/9 J []$\T1/pplj/m/it/9 .
  []
@@ -2693,19 +2683,19 @@ Overfull \hbox (13.73224pt too wide) in paragraph at lines 916--921
 \T1/pplj/m/n/10.95 with $\OT1/zplm/m/n/10.95 ^^B$ \T1/pplj/m/n/10.95 a finite-dimensional normed vec-tor space, be a finite-dimensional
  []
 
-[110]
+[114]
 Overfull \hbox (5.9349pt too wide) in paragraph at lines 956--966
 [] []$\T1/pplj/m/n/10.95 , $\OML/zplm/m/it/10.95 H \OT1/zplm/m/n/10.95 = [] []$\T1/pplj/m/n/10.95 , and $\OML/zplm/m/it/10.95 H[] \OT1/zplm/m/n/10.95 = [][]\OML/zplm/m/it/10.95 h[]\OT1/pplx/m/n/10.95 , [] $
  []
 
-[111]
+[115]
 
-LaTeX Warning: Reference `EQ:POSTP-PROPOSED-REGULATOR' on page 112 undefined on input line 1030.
+LaTeX Warning: Reference `EQ:POSTP-PROPOSED-REGULATOR' on page 116 undefined on input line 1030.
 
 
-LaTeX Warning: Reference `SEC:POSTP-PROPOSED-SOLUTION' on page 112 undefined on input line 1033.
+LaTeX Warning: Reference `SEC:POSTP-PROPOSED-SOLUTION' on page 116 undefined on input line 1033.
 
-[112] [113] [114]
+[116] [117] [118]
 Overfull \hbox (41.56685pt too wide) in paragraph at lines 1140--1140
  [][] [][] [] \OMS/zplm/m/n/9 ^^T
  []
@@ -2715,28 +2705,28 @@ Overfull \hbox (41.56685pt too wide) in paragraph at lines 1140--1140
 [][] [][] [] \OMS/zplm/m/n/9 ^^T 
  []
 
-[115]
+[119]
 Overfull \hbox (5.07314pt too wide) in paragraph at lines 1218--1223
 [][]\T1/pplj/b/n/10.95 Claim 7.5.2. []\T1/pplj/m/it/10.95 Let As-sump-tion [][]7.4.1[][]-[][]7.5.2[][] hold and con-sider the reg-u-la-tor [],
  []
 
-<Figs/Chapter8-9/preprocessing_ctrl_action.pdf, id=2432, 462.52798pt x 346.89601pt>
+<Figs/Chapter8-9/preprocessing_ctrl_action.pdf, id=2482, 462.52798pt x 346.89601pt>
 File: Figs/Chapter8-9/preprocessing_ctrl_action.pdf Graphic file (type pdf)
 <use Figs/Chapter8-9/preprocessing_ctrl_action.pdf>
 Package pdftex.def Info: Figs/Chapter8-9/preprocessing_ctrl_action.pdf  used on input line 1249.
 (pdftex.def)             Requested size: 268.80103pt x 201.60739pt.
-[116]
-<Figs/Chapter8-9/preprocessing_errors.pdf, id=2440, 462.52798pt x 346.89601pt>
+[120]
+<Figs/Chapter8-9/preprocessing_errors.pdf, id=2490, 462.52798pt x 346.89601pt>
 File: Figs/Chapter8-9/preprocessing_errors.pdf Graphic file (type pdf)
 <use Figs/Chapter8-9/preprocessing_errors.pdf>
 Package pdftex.def Info: Figs/Chapter8-9/preprocessing_errors.pdf  used on input line 1262.
 (pdftex.def)             Requested size: 268.80103pt x 201.60739pt.
-<Figs/Chapter8-9/preprocessing_errors_full.pdf, id=2441, 462.52798pt x 346.89601pt>
+<Figs/Chapter8-9/preprocessing_errors_full.pdf, id=2491, 462.52798pt x 346.89601pt>
 File: Figs/Chapter8-9/preprocessing_errors_full.pdf Graphic file (type pdf)
 <use Figs/Chapter8-9/preprocessing_errors_full.pdf>
 Package pdftex.def Info: Figs/Chapter8-9/preprocessing_errors_full.pdf  used on input line 1273.
 (pdftex.def)             Requested size: 268.80103pt x 201.60739pt.
- [117 <./Figs/Chapter8-9/preprocessing_ctrl_action.pdf>] [118 <./Figs/Chapter8-9/preprocessing_errors.pdf> <./Figs/Chapter8-9/preprocessing_errors_full.pdf>]
+ [121 <./Figs/Chapter8-9/preprocessing_ctrl_action.pdf>] [122 <./Figs/Chapter8-9/preprocessing_errors.pdf> <./Figs/Chapter8-9/preprocessing_errors_full.pdf>]
 Overfull \hbox (5.54495pt too wide) in paragraph at lines 1347--1355
 []$\T1/pplj/m/n/10.95 . In all sim-u-la-tions
  []
@@ -2746,10 +2736,10 @@ Overfull \hbox (0.82147pt too wide) in paragraph at lines 1358--1369
 \T1/pplj/m/n/10.95 We pre-sented two learning-based tech-niques to de-sign in-ter-nal model-
  []
 
-[119]) [120]
+[123]) [124]
 \openout2 = `Chapters/Conclusions.aux'.
 
- (./Chapters/Conclusions.tex) [121
+ (./Chapters/Conclusions.tex) [125
 
 
 
@@ -2757,15 +2747,15 @@ Overfull \hbox (0.82147pt too wide) in paragraph at lines 1358--1369
 
 
 
-] [122
+] [126
 
 
 
 
-] [123
+] [127
 
 
-] [124]
+] [128]
 \openout2 = `Chapters/Chapter0A.aux'.
 
  (./Chapters/Chapter0A.tex
@@ -2780,33 +2770,33 @@ Overfull \hbox (4.35826pt too wide) in paragraph at lines 20--26
 \T1/pplj/m/n/10.95 ap-prox-i-ma-tion or in-ter-po-la-tion con-di-tions on a given set of data points.
  []
 
-[125
+[129
 
 
 
 ]
-<Figs/AppendixA/bspline_basis.pdf, id=2552, 462.52798pt x 346.89601pt>
+<Figs/AppendixA/bspline_basis.pdf, id=2601, 462.52798pt x 346.89601pt>
 File: Figs/AppendixA/bspline_basis.pdf Graphic file (type pdf)
 <use Figs/AppendixA/bspline_basis.pdf>
 Package pdftex.def Info: Figs/AppendixA/bspline_basis.pdf  used on input line 66.
 (pdftex.def)             Requested size: 268.80103pt x 201.60739pt.
-<Figs/AppendixA/bspline_example.pdf, id=2553, 462.52798pt x 346.89601pt>
+<Figs/AppendixA/bspline_example.pdf, id=2602, 462.52798pt x 346.89601pt>
 File: Figs/AppendixA/bspline_example.pdf Graphic file (type pdf)
 <use Figs/AppendixA/bspline_example.pdf>
 Package pdftex.def Info: Figs/AppendixA/bspline_example.pdf  used on input line 72.
 (pdftex.def)             Requested size: 268.80103pt x 201.60739pt.
- [126 <./Figs/AppendixA/bspline_basis.pdf>]
-<Figs/AppendixA/nurbs_example.pdf, id=2570, 462.52798pt x 346.89601pt>
+ [130 <./Figs/AppendixA/bspline_basis.pdf>]
+<Figs/AppendixA/nurbs_example.pdf, id=2618, 462.52798pt x 346.89601pt>
 File: Figs/AppendixA/nurbs_example.pdf Graphic file (type pdf)
 <use Figs/AppendixA/nurbs_example.pdf>
 Package pdftex.def Info: Figs/AppendixA/nurbs_example.pdf  used on input line 108.
 (pdftex.def)             Requested size: 268.80103pt x 201.60739pt.
- [127 <./Figs/AppendixA/bspline_example.pdf>] [128 <./Figs/AppendixA/nurbs_example.pdf>]
+ [131 <./Figs/AppendixA/bspline_example.pdf>] [132 <./Figs/AppendixA/nurbs_example.pdf>]
 Overfull \hbox (8.65018pt too wide) in paragraph at lines 217--220
 []\T1/pplj/m/it/10.95 Degree el-e-va-tion\T1/pplj/m/n/10.95 . A curve of or-der $\OML/zplm/m/it/10.95 p$ \T1/pplj/m/n/10.95 and with co-ef-fi-cients $[][]\OT1/pplx/m/n/10.95 , [] , [][]$
  []
 
-[129]) [130]
+[133]) [134]
 \openout2 = `FB-Matter/Bibliography.aux'.
 
  (./FB-Matter/Bibliography.tex
@@ -2830,7 +2820,7 @@ Overfull \hbox (0.98782pt too wide) in paragraph at lines 9--9
 []\T1/pplj/m/n/10.95 M. Buisson-Fenet, V. Mor-gen-thaler, S. Trimpe, and F. Di Meglio.
  []
 
-[131
+[135
 
 
 
@@ -2838,7 +2828,7 @@ Overfull \hbox (0.98782pt too wide) in paragraph at lines 9--9
 
 
 
-] [132]
+] [136]
 Overfull \hbox (5.95203pt too wide) in paragraph at lines 9--9
 []\T1/pplj/m/n/10.95 T. Dang, F. Mas-carich, S. Khat-tak, C. Pa-pachris-tos, and K. Alexis.
  []
@@ -2853,12 +2843,12 @@ Overfull \hbox (5.0455pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 aerial robotics.^^Q In: \T1/pplj/m/it/10.95 2018 IEEE In-ter-na-tional Con-fer-ence on Robotics
  []
 
-[133]
+[137]
 Overfull \hbox (6.01926pt too wide) in paragraph at lines 9--9
 []\T1/pplj/m/n/10.95 J. Faigl and P. Vá¬a. ^^P  Surveil-lance plan-ning with Bézier curves.^^Q
  []
 
-[134]
+[138]
 Overfull \hbox (12.07541pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 quadro-tors in clut-tered en-vi-ron-ments.^^Q In: \T1/pplj/m/it/10.95 Jour-nal of Field Robotics
  []
@@ -2878,7 +2868,7 @@ Overfull \hbox (20.1675pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 bust ap-proach for sur-face reg-is-tra-tion.^^Q In: \T1/pplj/m/it/10.95 Com-puter Vi-sion^^VECCV
  []
 
-[135]
+[139]
 Overfull \hbox (0.19476pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 frame-work based on oc-trees.^^Q In: \T1/pplj/m/it/10.95 Au-tonomous robots \T1/pplj/m/n/10.95 34.3 (2013),
  []
@@ -2893,12 +2883,12 @@ Overfull \hbox (7.07765pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/it/10.95 ac-tions on vi-su-al-iza-tion and Com-puter Graph-ics \T1/pplj/m/n/10.95 12.4 (2006), pp. 581^^U
  []
 
-[136]
+[140]
 Overfull \hbox (5.30128pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 rier Func-tions: A Non-Parametric Paradigm to Safety.^^Q In: \T1/pplj/m/it/10.95 arXiv
  []
 
-[137]
+[141]
 Overfull \hbox (7.41368pt too wide) in paragraph at lines 9--9
 []\T1/pplj/m/n/10.95 A. A. Meera, M. Popovi¢, A. Mil-lane, and R. Sieg-wart. ^^P  Obstacle-
  []
@@ -2908,7 +2898,7 @@ Overfull \hbox (7.87881pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 In: \T1/pplj/m/it/10.95 AIAA Guid-ance, nav-i-ga-tion, and con-trol con-fer-ence\T1/pplj/m/n/10.95 . 2015, p. 0598. 
  []
 
-[138]
+[142]
 Overfull \hbox (17.38858pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 tions for en-forc-ing high relative-degree safety-critical con-straints.^^Q
  []
@@ -2918,7 +2908,7 @@ Overfull \hbox (0.50969pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 In: \T1/pplj/m/it/10.95 2016 Amer-i-can Con-trol Con-fer-ence (ACC)\T1/pplj/m/n/10.95 . IEEE. 2016, pp. 322^^U
  []
 
-[139]
+[143]
 Overfull \hbox (21.13557pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/it/10.95 fer-ence on In-tel-li-gent Robots and Sys-tems (IROS)\T1/pplj/m/n/10.95 . IEEE. 2017, pp. 1366^^U
  []
@@ -2933,12 +2923,12 @@ Overfull \hbox (5.74876pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 re-ced-ing hori-zon ex-plo-ration and map-ping us-ing aerial robots.^^Q
  []
 
-[140]
+[144]
 Overfull \hbox (0.3395pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/it/10.95 Graph-ics and Ap-pli-ca-tions (Cat. No. 98EX208)\T1/pplj/m/n/10.95 . IEEE. 1998, pp. 37^^U
  []
 
-[141]
+[145]
 Overfull \hbox (7.0411pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 ^^P  A com-par-a-tive study of non-lin-ear mpc and differential-flatness-
  []
@@ -2963,7 +2953,7 @@ Overfull \hbox (17.67094pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 strate-gies for si-mul-ta-ne-ous lo-cal-iza-tion and map-ping.^^Q In: \T1/pplj/m/it/10.95 Robotics
  []
 
-[142]
+[146]
 Overfull \hbox (7.80722pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 ro-bust, au-tonomous nav-i-ga-tion of quadro-tors.^^Q In: \T1/pplj/m/it/10.95 arXiv preprint
  []
@@ -2973,7 +2963,7 @@ Overfull \hbox (19.82811pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 organized UAV traf-fic in re-al-is-tic en-vi-ron-ments.^^Q In: \T1/pplj/m/it/10.95 2016 IEEE/RSJ
  []
 
-[143]
+[147]
 Overfull \hbox (2.82271pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 struc-tured Gaus-sian pro-cesses (KISS-GP).^^Q In: \T1/pplj/m/it/10.95 In-ter-na-tional Con-
  []
@@ -2998,7 +2988,7 @@ Overfull \hbox (0.90892pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/it/10.95 on Com-pu-ta-tional In-tel-li-gence in Robotics and Au-toma-tion CIRA'97.
  []
 
-[144]
+[148]
 Overfull \hbox (18.1675pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/n/10.95 flight.^^Q In: \T1/pplj/m/it/10.95 IEEE Robotics and Au-toma-tion Let-ters \T1/pplj/m/n/10.95 4.4 (2019), pp. 3529^^U
  []
@@ -3013,7 +3003,7 @@ Overfull \hbox (18.57512pt too wide) in paragraph at lines 9--9
 \T1/pplj/m/it/10.95 The In-ter-na-tional Jour-nal of Robotics Re-search \T1/pplj/m/n/10.95 32.9-10 (2013), pp. 1164^^U
  []
 
-) [145] (./main.aux (./FB-Matter/Titlepage.aux) (./FB-Matter/Titleback.aux) (./FB-Matter/Abstract.aux) (./FB-Matter/Publications.aux) (./FB-Matter/Contents.aux) (./Chapters/Introduction.aux) (./Chapters/Chapter01.aux) (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux) (./Chapters/Chapter04.aux) (./Chapters/Chapter05.aux) (./Chapters/Chapter06.aux) (./Chapters/Chapter07.aux) (./Chapters/Conclusions.aux) (./Chapters/Chapter0A.aux) (./FB-Matter/Bibliography.aux))
+) [149] (./main.aux (./FB-Matter/Titlepage.aux) (./FB-Matter/Titleback.aux) (./FB-Matter/Abstract.aux) (./FB-Matter/Publications.aux) (./FB-Matter/Contents.aux) (./Chapters/Introduction.aux) (./Chapters/Chapter01.aux) (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux) (./Chapters/Chapter04.aux) (./Chapters/Chapter05.aux) (./Chapters/Chapter06.aux) (./Chapters/Chapter07.aux) (./Chapters/Conclusions.aux) (./Chapters/Chapter0A.aux) (./FB-Matter/Bibliography.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -3024,10 +3014,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35090 strings out of 478268
- 712230 string characters out of 5846346
- 1579316 words of memory out of 5000000
- 51812 multiletter control sequences out of 15000+600000
+ 35119 strings out of 478268
+ 712920 string characters out of 5846346
+ 1582241 words of memory out of 5000000
+ 51828 multiletter control sequences out of 15000+600000
  602418 words of font info for 279 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,23n,108p,10640b,3305s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3038,10 +3028,10 @@ pdfTeX warning (dest): name{cite.0@ferreau2014qpoases} has been referenced but d
 pdfTeX warning (dest): name{cite.0@verschueren2018towards} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (165 pages, 22740805 bytes).
+Output written on main.pdf (169 pages, 22758732 bytes).
 PDF statistics:
- 3198 PDF objects out of 3580 (max. 8388607)
- 2593 compressed objects within 26 object streams
- 690 named destinations out of 1000 (max. 500000)
+ 3251 PDF objects out of 3580 (max. 8388607)
+ 2640 compressed objects within 27 object streams
+ 703 named destinations out of 1000 (max. 500000)
  44783 words of extra memory for PDF output out of 51595 (max. 10000000)
 

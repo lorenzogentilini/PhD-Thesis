@@ -4307,6 +4307,46 @@
     \field{year}{2011}
   \endentry
 
+  \entry{mueller2015computationally}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MMW}{%
+         family={Mueller},
+         familyi={M\bibinitperiod},
+         given={M.\bibnamedelima Ww.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hehn},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={D'Andrea},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \keyw{non-self-pub}
+    \strng{namehash}{MMWHMDR1}
+    \strng{fullhash}{MMWHMDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{6}
+    \field{pages}{1294\bibrangedash 1310}
+    \field{title}{A computationally efficient motion primitive for quadrocopter
+  trajectory generation}
+    \field{volume}{31}
+    \field{journaltitle}{IEEE transactions on robotics}
+    \field{year}{2015}
+  \endentry
+
   \entry{mueller2016persistent}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=MM}{%
