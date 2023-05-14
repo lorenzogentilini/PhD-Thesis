@@ -1,0 +1,59 @@
+\documentclass[tikz,border=3.14mm]{standalone}
+\usepackage{pgfplots}
+\usetikzlibrary{intersections}
+\pgfplotsset{compat=1.16}
+\usetikzlibrary{math} % tikzmath, see p. 640 of the pgfmanual. 
+\newcommand{\rr}{\mathbf{r}}
+\newcommand{\cc}{\mathbf{c}}
+
+\pgfdeclarelayer{background}
+\pgfsetlayers{background,main}
+\tikzset{
+	expand bubble/.style={
+		preaction={draw,line width=10.4pt, white},
+		white,fill,draw,line width=10pt, gray!10
+	},
+}
+
+
+\begin{document}
+	\begin{tikzpicture}
+		\begin{axis}[
+			xmin= -1.0, xmax=3.5,
+			ymin= -1.0, ymax=3.5,
+			samples=101,
+			use fpu=false,mark=none,
+			axis line style={draw=none},
+			tick style={draw=none},
+			yticklabels={,,},
+			xticklabels={,,},
+			domain=0:2] 
+			\addplot[mark=*, mark size=1pt, color=black!70] coordinates {(2.75,1.8)} node[xshift=3mm, yshift=0mm, color=black, scale=0.7] {$\rr_{5}$};
+			\addplot[mark=*, mark size=1pt, color=black!70] coordinates {(2.11,2.2)} node[xshift=2mm, yshift=1mm,, color=black, scale=0.7] {$\rr_{4}$};
+			\addplot[mark=*, mark size=1pt, color=black!70] coordinates {(1.157,2.2)} node[xshift=1mm, yshift=1.5mm,, color=black, scale=0.7] {$\rr_{3}$};
+			\addplot[mark=*, mark size=1pt, color=black!70] coordinates {(0.47,1.7)} node[above, color=black, scale=0.7] {$\rr_{2}$};
+			\addplot[mark=*, mark size=1pt, color=black!70] coordinates {(0,1)} node[xshift=-2.8mm, yshift=1mm,, color=black, scale=0.7] {$\rr_{1}$};
+			\addplot[mark=*, mark size=1pt, color=black!70] coordinates {(0,0)} node[xshift=-1.5mm, yshift=0mm,, color=black, scale=0.7] {$\rr_{0}$};
+			
+			\addplot[mark=none, color=blue!20] coordinates {(2.11,2.2) (2.75,1.8)} node[pos=0.5, above, color=black, scale=0.7] {};
+			\addplot[mark=none, color=blue!20] coordinates {(1.157,2.2) (2.11,2.2)} node[pos=0.5, above, color=black, scale=0.7] {};
+			\addplot[mark=none, color=blue!20] coordinates {(0.47,1.7) (1.157,2.2)} node[pos=0.5, above, color=black, scale=0.7] {};
+			\addplot[mark=none, color=blue!20] coordinates {(0,1) (0.47,1.7)} node[pos=0.5, left, color=black, scale=0.7] {};
+			\addplot[mark=none, color=blue!20] coordinates {(0,0) (0,1)} node[pos=0.5, left, color=black, scale=0.7] {};
+			\addplot[mark=none, color=blue!20] coordinates {(0,0) (2.75,1.8)};
+			
+			\draw[thick, name path=curve] (0,0) .. controls (0.1,2.2) and (2.2,2.36) .. (2.75,1.8);
+			\draw[, name path=circ5] (1.08,1.48) circle (1.83);
+			\addplot[mark=*, mark size=1pt, color=black!70] coordinates {(1.08,1.48)} node[below left, color=black, scale=0.7] {$\mathbf{c}$};
+			
+			\node (p1) at (1.7, 0.3) {};
+			\node (p2) at (2.5, -0.5) {};
+			\node (p3) at (3.2, 0.7) {};
+			\node (p4) at (3.0, -0.5) {$\mathcal{O}$};
+			\begin{pgfonlayer}{background}
+				\path[expand bubble]plot [smooth cycle,tension=1] coordinates {(p1) (p2) (p3)};
+			\end{pgfonlayer}
+			
+		\end{axis}
+	\end{tikzpicture}
+\end{document}

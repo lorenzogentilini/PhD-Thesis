@@ -1,0 +1,196 @@
+\chapter{Environment Mapping and Localisation}%
+\label{CH:MAPPING}
+
+%----------------------------------------------------------------------------------------
+\section{The Framework}%
+\label{SEC:MANDL-FRAMEWORK}
+The problem of Simultaneous Localisation And Mapping (SLAM) is related to the issue of concurrently estimating the robot position, in a
+\emph{local} or \emph{global} reference system, and mapping the obstacles, or visual clues, present in the environment under exploration.
+SLAM is the process by which a robot builds a map of the environment and, at the same time, uses this map to compute its location,
+as the reader can conceive such a problem undergoes the so-called \emph{chicken-egg} dilemma as a map is needed to perform localisation,
+but a pose estimation is necessary to build the map. To enable planning and navigation a reliable and resilient localisation is of fundamental
+importance as it can provide the reference systems necessary to ground the onboard drone intelligence.
+Such a problem has been widely studied and a large number of solutions have been presented along
+the literature, for a large number of different sensors, starting from frame monocular~\cite{forster2014svo, mur2015orb, qin2018vins} and
+stereo cameras~\cite{gomez2019pl, mur2017orb, campos2021orb}, to event cameras~\cite{vidal2018ultimate},
+and LiDAR sensors~\cite{zhang2014loam, xu2021fast, xu2022fast, kim2021scan, caballero2021dll}.
+In the specific case of the Leonardo drone contest (see~\secref{SEC:DRONE-CONTEST}), the autonomous robot was required to perform SLAM with some apriori information at hand,
+as the environment under exploration was already mapped by means of user-friendly tools, and a three-dimensional geometrical reconstruction was
+made available for the robot. In these settings, the only way to localise inside the precomputed environment reconstruction was to exploit the
+endowed stereo camera to build a local pointcloud, via stereo matching, and match it with the provided 3D map, in a purely LiDAR SLAM
+paradigm~\cite{zhang2014loam, xu2021fast, xu2022fast, kim2021scan, caballero2021dll}.
+At the same time, visual SLAM approaches, as well as the build pointcloud, could have been used to enrich the initial map with new
+details useful to improve the localisation stability.
+Following the latter intuition, we choose to deploy two different SLAM solutions working in parallel on two different sets of data.
+On one side, we employ state-of-the-art visual-inertial-based SLAM approaches to estimate the robot motion with respect to an \emph{odometry}
+frame~\cite{mur2015orb, qin2018vins}, by means of hardware-calibrated stereo images, while, on the other hand, we borrow from the LiDAR
+SLAM field the idea of pointcloud matching to precisely align the sensed pointcloud with the apriori provided map.
+
+In this chapter we review and adapt a novel pointcloud matching algorithm, designed for LiDAR-based localisation, to the case of
+quadrotor localisation in cluttered environments using limited FoV sensors, such as stereo cameras.
+For further details the reader is referred to the original work~\cite{caballero2021dll}.
+
+\subsection{Related Works}
+The literature is cluttered with works trying to solve both the problems of LiDAR odometry and SLAM, although
+very few of them deeply discuss the problem of map-based localisation, considering it a sub-class of problem strictly related to the SLAM one.
+A recent comprehensive review of LiDAR-based localisation solutions for ground vehicles can be found in~\cite{elhousni2020survey}.
+The basic idea, on which most of the solutions are grounded, is to register (aka match) the current LiDAR reading into a local submap, being it
+composed by the last LiDAR measure or a collection of data from previously registered points.
+As the reader can conceive, matching every point of the LiDAR data with every point of the current map is a process that quickly grows and reaches
+infeasibility due to the limited computation capabilities available, especially onboard drones.
+To overtake this limitation, most state-of-the-art solutions make use of geometric features such as corners or planes directly extracted from the sensors
+pointcloud~\cite{zhang2014loam, liu2019precise, choy2019fully}.
+The key idea is to select points or areas that are easy to identify and match when reviewed again from a different perspective, point of view, or distance.
+LOAM~\cite{zhang2014loam} exploits exactly this idea, as it extracts point features on sharp edges and planar surfaces and matches them between consecutive scans.
+On the other hand~\cite{dube2018incremental} uses a similar approach, pointcloud segments and descriptors are used to perform localisation;
+while MULLS~\cite{pan2021mulls} tries to increase the localisation accuracy by combining a feature-based front-end SLAM with a multi-cetric ICP for map alignment.
+Although feature-based LiDAR-to-map registration approaches show very good results with low computational burden, they may fail in poor texture scenes, or
+when multiple occlusions happen.
+Iterative Closest Points (ICP)-based approaches~\cite{chen1992object} showed better performance and robustness with respect to the aforementioned issues,
+as their use the raw pointcloud for registration, and no features or interest points are extracted.
+This accuracy and stability come at the price of a high computational burden, especially when dealing with large pointcloud maps.
+Moreover, the ICP convergence strongly depends on the quality of the provided initial pose estimation.
+In the literature can be found a bunch of works aiming to approximate the neighbors search procedure~\cite{muja2009fast, elseberg2012comparison}, which turns out
+to be the major computational bottleneck. While many ICP variants have been proposed to improve the 
+global robustness against noise or bad initialization by means of new criteria as Branch-and-Bound in GO-ICP~\cite{yang2015go},
+or reformulating the ICP problem as Expectation-Maximization in EM-ICP~\cite{granger2002multi},
+or as a Truncated Lest Squares in TEASER~\cite{yang2020teaser}.
+The Normal Distribution Transform (NDT) was the first approach to propose nearest-neighbor-free solution for pointcloud registration~\cite{magnusson2007scan, hong2017probabilistic}
+allowing for very high accuracy while avoiding the computational burden induced by ICP approaches.
+The NDT is used to encode both scan and map using a probabilistic representation.
+Registration is then performed between these representations and not the original scans.
+Such a representation allows for numerical optimization methods, and does not require expensive nearest-neighbor search procedures.
+Recently,~\cite{caballero2021dll} proposed a direct approach for registration, where the raw pointcloud is registered inside the map
+in a nearest-neighbor-free fashion. The registration is reformulated as a non-linear least square optimisation problem which aims to
+minimise the scan points distance to the current environment map continuously maintained as a Euclidean Signed Distance Field (ESDF).
+
+%----------------------------------------------------------------------------------------
+\section{An Optimization-based Localization Approach}
+\subsection{Problem Formulation}
+Let $\MM = \{ e^{\MM}_1, e^{\MM}_2, e^{\MM}_3 \}$ denotes a right-hand inertial frame associated with the provided three-dimensional reconstruction,
+and let $\SF = \{ e^{\SF}_1, e^{\SF}_2, e^{\SF}_3 \}$ be a sensor-fixed reference frame, rigidly attached to the body-fixed one $\BB$
+by means of a static transformation $^{\BB}T_{\SF} = \lps ^{\BB}R_{\SF}, \{\bs{t}_{\SF}\}_{\BB} \rps \in SE(3)$, with $SE(3)$ the Special Euclidean group
+of dimension $3$. Assume that the endowed sensor, being a stereo-frame camera in the Leonardo drone contest case, streams as output a pointcloud
+$\{\PC^k\}_{\SF} = \{ \{\bs{p}^k_0\}_{\SF}, \{\bs{p}^k_1\}_{\SF}, \dots, \{\bs{p}^k_{N_p^k}\}_{\SF} \}$ at each timestamp $k \in \R_{\ge 0}$, consisting of
+$N_p^k$ points $\{\bs{p}^k_i\}_{\SF} \in \R^{3}$ expressing the obstacles position in the sensor reference frame $\SF$.
+Moreover, assume that a map of the environment is also available as a pointcloud $\{\PC^k\}_{\MM} = \{ \{\bs{p}^k_0\}_{\MM},
+\{\bs{p}^k_1 \}_{\MM}, \dots, \{\bs{p}^k_{N_m^k} \}_{\MM} \}$, where each point $\{\bs{p}^k_i \}_{\MM}$ is static inside the interval $\lps k, k+1 \rps$.
+In this setting, the localisation goal is to find the transformation $^{\MM}T_{\SF} = \lps ^{\MM}R_{\SF}, \{\bs{t}_{\SF}\}_{\MM} \rps \in SE(3)$
+that better aligns $\{\PC^k\}_{\SF}$ with $\{\PC^k\}_{\MM}$. In other terms, the goal is to find out the minimiser of the optimisation problem
+\begin{equation}
+    \label{EQ:LOCALISATION-OPTIMISATION-COMPLEX}
+    \argmin_{^{\MM}T_{\SF}} \sum_{i = 0}^{N_p^k} \norm{^{\MM}T_{\SF} \{\bs{p}^k_i\}_{\SF} - 
+                            \argmin_{\{\bs{p}^k \}_{\MM}} \norm{^{\MM}T_{\SF} \{\bs{p}^k_i\}_{\SF} - \{\bs{p}^k_j \}_{\MM}}^2}^2,
+\end{equation}
+where 
+\begin{equation*}
+    \argmin_{\{\bs{p}^k \}_{\MM}} \norm{^{\MM}T_{\SF} \{\bs{p}^k_i\}_{\SF} - \{\bs{p}^k_j \}_{\MM}}^2
+\end{equation*}
+represents the \emph{map} point closest to $^{\MM}T_{\SF} \{\bs{p}^k_i\}_{\SF}$.
+Solving the aforementioned problem needs to deal with two major challenges, first how to determine the closest map point, and
+then how to solve a massively overdetermined non-linear optimization problem.
+ICP solutions work by iteratively searching for pairs of nearby points in the two pointclouds and minimising the sum of all
+point-to-point distances, while NDT approaches model the pointclouds as combinations of normal distributions instead of individual points,
+describing the probability of finding a point at a certain position. The latter piecewise smooth representation allows for standard numerical optimisation methods for registration.
+Since the major bottleneck in registration is represeted by the nearest neighbor search, NDT solutions generally work better, with high performance.
+For this reason,~\cite{caballero2021dll} follows the same NDT idea, and converts the registration process in a non-linear optimization problem where
+pointclouds are modeled as Euclidean distance fields. Let $d^k\lp \bs{p} \rp : \R^3 \mapsto \R$ be the ESDF build up with the map points
+$\{\PC^k\}_{\MM}$ at time $k$, then~\eqref{EQ:LOCALISATION-OPTIMISATION-COMPLEX} boils down to
+\begin{equation}
+    \label{EQ:LOCALISATION-OPTIMISATION-SIMPLE}
+    \argmin_{^{\MM}T_{\SF}} \sum_{i = 0}^{N_p^k} d^k \lp ^{\MM}T_{\SF} \{\bs{p}^k_i\}_{\SF} \rp^2.
+\end{equation}
+The map $d^k\lp \bs{p} \rp$ is everywhere continuous and smooth, except to the object boundaries where the gradient is discontinuous~\cite{jones20063d},
+so the aforementioned optimisation problem can be solved using off-the-shelf non-linear least squares solvers (eg. Ceres~\cite{agarwal2022ceres}).
+\begin{remark}
+    Due to the high nonlinearities encoded in~\eqref{EQ:LOCALISATION-OPTIMISATION-SIMPLE}, its convergence to the global optimum is ensured only in front of
+    good enough initial conditions. To overtake this problem, a state-of-the-art visual-inertial-based SLAM approach has been employed to
+    estimate the robot motion between two different time instants $k$ and $k+1$, in order to supply~\eqref{EQ:LOCALISATION-OPTIMISATION-SIMPLE}
+    with a very good initial condition.
+\end{remark}
+\begin{remark}
+    When dealing with~\eqref{EQ:LOCALISATION-OPTIMISATION-SIMPLE}, it is of fundamental importance to keep care about possible outliers.
+    In particular, the sensed pointcloud may contain objects not mapped yet, such as dynamic obstacles that can cross the environment, or
+    previously unmapped static obstacles, or may contain points that fall outside the map bounds.
+    At the same time, the sensed pointcloud may be affected by noise and can contain many points that do not belong to any object in the scene.
+    To overtake these problems three actions have been taken to improve the solver convergence
+    \begin{enumerate}
+        \item The sensed pointcloud is pre-elaborated with a bunch of downsampling and outliers removal filters.
+        \item A robust Cauchy kernel is applied to each loss factor in~\eqref{EQ:LOCALISATION-OPTIMISATION-SIMPLE}, in order to penalize large costs
+              induced by outliers and not matched points (in the nearest neighbor sense).
+        \item If a point lies outside the map, the ESDF returns a zero value, producing both error and gradient equal to zero to avoid affecting the optimization process.
+    \end{enumerate}
+\end{remark}
+
+\subsection{Signed Distance Field Computation}
+As emerges from the previous section,~\cite{caballero2021dll} encodes the ESDF inside the optimisation problem~\eqref{EQ:LOCALISATION-OPTIMISATION-COMPLEX}
+in place of the nearest neighbor search, to speed-up its solution.
+This choice has the advantage to avoid heavy nearest neighbor searches, at the expense of ESDF computation, which can turn out to be
+very computationally expensive for large environments. As a matter of fact,~\cite{caballero2021dll} proposes to build-up the Euclidean field
+offline, and assume the environment to be static, so the precomputed map is always valid.
+Such an assumption is clearly not satisfied in the Leonardo drone contest settings (\secref{SEC:DRONE-CONTEST}), thus we require to build and
+adapt the signed distance online to account for environments modifications.
+Although along the literature there exist several different approaches to compute ESDFs, both in
+discrete~\cite{oleynikova2017voxblox, han2019fiesta}, and continuous settings~\cite{popovic2017multiresolution, stork2020ensemble, wu2021faithful},
+none of these is able to cope with prior map information, so we propose a novel structured approach able to account for previous maps
+and to locally modify the computed ESDF to cope with environment modifications.
+Unlike state-of-the-art approaches, our method assumes a bounded map and is able to add and remove newly sensed obstacles, but is unable
+to remove previously already mapped objects.
+
+The proposed ESDF computation follows two steps.
+In the first offline stage it builds up the distance field of the apriori mapped environment, to do so the overall environment is
+discretised with a fixed resolution $\Delta = \lps \Delta_x, \Delta_y, \Delta_z \rps$, then each cell grid $\bs{\xi}_i \in \R^3$
+is filled with the squared distance of the closest map point $\{\bs{p}^0 \}_{\MM}$
+\begin{equation*}
+    \min_{\{\bs{p}^0 \}_{\MM}} \norm{\bs{\xi}_i - \{\bs{p}^0_j \}_{\MM}}^2.
+\end{equation*}
+The latter nearest neighbor search is performed via FLANN KDTree search~\cite{muja2009flann}.
+\begin{remark}
+    The built FLANN KDTree is kept maintained in memory and used later for ESDF online adaptation.
+\end{remark}
+The second step is performed online, at each new sensor update, the incoming cloud $\{\PC^k\}_{\SF}$ is downsampled and
+filtered against possible outliers, then it is converted in map coordinate via the estimated transformation $^{\MM}T_{\SF}$
+and inserted inside an octree probability occupancy map~\cite{hornung2013octomap}, build-up with the same discretisation resolution $\Delta$.
+The latter insertion is fundamental to robustify the approach both in terms of sensor noise and possible localisation errors.
+All previously free cell grids branded as \emph{occupied}, and all previously occupied cells branded as \emph{free} are grouped into
+two vectors and used for the distance field update.
+\begin{itemize}
+    \item[] \emph{From free to occupied.} \\
+    A new (very small) FLANN KDTree is build out of the provided point vector, then each ESDF cell grid is updated with the minimum
+    between the current cell value and the distance computed over the last built KDTree.
+    \item[] \emph{From occupied to free.} \\
+    Two new (very small) FLANN KDTrees are build out of the provided point vector, and the current occupied voxels from the occupancy map.
+    Then each ESDF cell grid is updated with the minimum between the original map distance and the one evaluated on the occupancy map KDTree,
+    only if the current cell value matches with the distance evaluated on the point vector KDTree. 
+\end{itemize}
+The first step explains the insertion procedure, which turns out to be very easy, as each cell grid is replaced with the new minimum 
+distance, while the second step analyzes the removal procedure.
+In the latter step, the point vector KDTree is used to identify each map cell affected by the removal, then it is updated with the minimum
+between the original map distance and the distance evaluated on the new sensed obstacles.
+\begin{remark}
+    Due to the discrete nature of the adopted ESDF, the map $d^k\lp \bs{p} \rp$ presents discontinuities at the cell borders, losing the
+    required smoothness to let~\eqref{EQ:LOCALISATION-OPTIMISATION-SIMPLE} converge properly.
+    To overtake this limitation we approximate the real value of $d^k\lp \bs{p} \rp$ via trilinear interpolation.
+\end{remark}
+\begin{remark}
+    The overall approach can be speeded-up by restricting the occupancy points insertion to only those that do not belong to previously mapped obstacles
+    (i.e. belong to new scene objects).
+\end{remark}
+\begin{remark}
+    The proposed approach is not able to deal with the removal of previously mapped obstacles that have been moved, leaving the previously occupied
+    space free. This represents a strong limitation in the case of high dynamic scene, where obstacles may continuously change their location, but
+    on the other hand, this assumption leads to a conservative solution suitable for our case of study.
+\end{remark}
+
+%----------------------------------------------------------------------------------------
+\section{Contributions}
+This chapter is devoted to discuss the problem of localisation and mapping in dynamic scenarios where some apriori information,
+in the format of three-dimensional geometrical reconstruction, of the navigating environment was provided.
+The discussion unfolds by first reviewing the current state-of-the-art solutions both in terms of SLAM, occupancy mapping, and ESDF reconstruction,
+then we propose the adaptation of the most promising solution, to the quadcopter navigation case, where stereo-frame cameras are used to 
+retrieve a pointcloud reconstruction of the surroundings. The selected solution is then extended to dynamic environment scenarios via
+a novel structured approach to continuously update the computed ESDF. The proposed solution has the limitation of obstacle removal, as it
+is not able to remove objects scene already mapped inside the initial geometrical reconstruction.
+The proposed localisation approach has been successfully developed and deployed inside the Leonardo drone contest.
+
+%------------------------------------------------

@@ -1,0 +1,36 @@
+\chapter*{Introduction to the Thesis}%
+\label{CH:GENERAL-INTRODUCTION}
+
+%----------------------------------------------------------------------------------------
+This thesis is born from the combination in different shapes of three main research branches.
+On one side, we have a completely robotic view with the development of a fully autonomous aerial vehicle, while
+on the other side we have a study about nonlinear control techniques especially focused in the field
+of output regulation. The link between these two topics is represented by an unsupervised learning technique
+known as Gaussian process regression. The ambitious objective of this thesis is to join the two fields of robotics
+and control theory in order to let both of them borrow tools from its counterpart to improve domain-specific solutions.
+Being this goal very ambitious, the thesis aims to start building this link from the ground, using the
+learning tool as the initial bridge. In this scenario, we started our discussion by reviewing the main problems
+encountered when approaching the autonomous navigation problem, from the modeling and control, to the trajectory planning,
+and ending with autonomous exploration. For each proposed chapter, namely each faced problem, we proposed a literature
+review, followed by the implementation and testing of one of the most promising state-of-the-art
+algorithms, then we try to question the major limitations of such approach, proposing, when possible,
+novel solutions focused on improving the detected cons. The reader will find some pure robotics solutions as well
+as control theory oriented ones, which represent, under the aforementioned perspective, the main proposed vision of this thesis.
+Approaching the end, we discuss advanced control techniques involving output regulation tools to design robust
+control laws able to face the noisy and varying nature of real robot applications.
+The difficulty in establishing actuator saturations makes these approaches not mature enough to be applied in
+real contexts yet. All the discussion is seasoned with a strong use of Gaussian process regression that turns out to be 
+a fundamental tool to deal with the high uncertainties affecting physical models and with the time-varying
+external disturbances.
+
+The thesis unfolds as follows,~\chref{CH:INTRODUCTION} briefly analyses the motivations behind this work, with an eye to
+the proposed project where the Ph.D. has been developed, and describes the benchmark platform used to test the developed
+algorithms, while~\chref{CH:MODELING-AND-CONTROL} recaps the ``golden standard'' in quadrotor modeling and control.
+Chapters~\ref{CH:MAPPING},~\ref{CH:EXPLORATION},~\ref{CH:PLANNING}, and~\ref{CH:AVOIDANCE} are devoted to
+discuss, analyse, and implement solutions to the four basic problems in autonomous navigation, i.e.
+localisation and mapping, environment exploration, trajectory planning, and obstacle avoidance.
+Finally~\chref{CH:DATA-DRIVEN-REGULATION} proposes a new approach to the output regulation problem, with an eye
+to the application in the robotic control framework.~\chref{CH:CONCLUSIONS} closes the thesis with some
+final considerations.
+
+%------------------------------------------------

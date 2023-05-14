@@ -1,0 +1,33 @@
+\chapter*{Conclusions and Future Directions}%
+\label{CH:CONCLUSIONS}
+
+%----------------------------------------------------------------------------------------
+In this thesis we approached the problem of autonomous navigation by smoothly going through a sequence of issues
+that arise when approaching this field of study for the first time.
+Although the discussion mainly focused on quadcopter control and planning, the presented algorithms
+easily extend to a very large class of problems involving several different autonomous platforms, such as
+ground robots, fixed-wing UAVs, or even underwater robots.
+We started by reviewing the ``golden standards'' of quadcopter modeling and control in~\chref{CH:MODELING-AND-CONTROL},
+representing in some way the baseline from which we started our work, then we moved to the problem of localisation and
+mapping in~\chref{CH:MAPPING}, trajectory planning (\chref{CH:PLANNING}) and re-planning (\chref{CH:AVOIDANCE}),
+and environments exploration in~\chref{CH:EXPLORATION}.
+We especially focused on the re-planning and exploration problems, where beyond reviewing, developing, and testing
+state-of-the-art solutions, we contribute by proposing new fast and light approaches, with an eye to the
+system theory field from which we aim to borrow analysis tools to prove the algorithms stability.
+The touched problems, as they are reported in the thesis, are exactly the same issues that we faced during the
+development of a fully autonomous platform able to cope with the requirements proposed by the Leonardo drone contest.
+
+The thesis ends with a window on a completely new \emph{output regulation} control paradigm which although demonstrated
+very impressive results, it is not been used on real-scenario applications yet.
+The reason behind that lies mainly in its difficult design and poor generalisation in front of different
+exosystems and system uncertainties, in this sense we try to steer the research toward completely data-driven
+designs able to cope with a very large number of model sets.
+Besides that, the necessity to bound the computed control inputs to real actuator saturations is a fundamental
+issue that has not been deeply studied yet.
+The generality of the presented control technique, jointly with the possibility to extend the proposed algorithms to
+a very large number of different applications and robots motivate the chosen thesis title.
+The material presented is far from being a complete answer to the problem of motion planning and control of highly nonlinear
+robots which is definitely an open and challenging research field.
+As a matter of fact, many research directions are open by the proposed vision.
+
+%------------------------------------------------

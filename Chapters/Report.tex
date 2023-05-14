@@ -1,0 +1,55 @@
+\chapter*{Report On The Carried Activities}%
+
+%----------------------------------------------------------------------------------------
+The activities carried on during the Ph.D. three years have been mainly focused on the collaboration with Leonardo S.p.A.
+to realize a fully autonomous flying platform able to localise, navigate and act in previously unknown, or partially known, environments.
+The developed UAV has been tested, with increasingly complex challenges, against four other solutions proposed by four other
+Italian universities in the Leonardo drone contest.
+The main goal of the first year of work was to develop a first fully autonomous unmanned aerial vehicle able to accomplish an exploration
+mission and perform fast operations in already visited environments. In particular, the final objective was to map a given area
+and perform take-off and landing operations on given markers, autonomously.
+During the first year, we carefully selected the hardware required to build the vehicle, along with the sensors and computational units
+needed to endow the drone with autonomous capabilities. Moreover, a bunch of algorithms have been developed to face the first year
+challenge, among all, a \textit{kinodynamic planner}, a \textit{mapping server}, an \textit{exploration planner}, and a
+\textit{localization module}. At the end of the first year, the developed vehicle was able to
+\begin{enumerate}
+	\item Autonomously map an unknown area.
+	\item Support sensor noise in mapping new areas.
+	\item Planning safe trajectories, among previously unknown static obstacles, optimizing a user-given cost function.
+	\item Fast planning safe trajectories in known maps, optimizing a user-given cost function.
+	\item Precise landing on fixed targets.
+\end{enumerate}
+The second year challenge was more complex with respect to the first year one, requiring a bunch of new vehicle capabilities.
+\begin{enumerate}
+	\item Robust localization via prior map notion and anchor markers.
+	\item Reliable trajectory planning in known maps to pursue a moving target.
+	\item Identify and read an alphanumerical string.
+	\item Ability to optimize a sequence of fixed tasks on the basis of battery level and risk level.
+	\item Reliable trajectory planning in known maps, optimizing a user-given cost function.
+\end{enumerate}
+The aforementioned capabilities have been developed during the second year, among all developed algorithms it is worth mentioning
+\begin{enumerate}
+	\item B\acuteacc ezier planning in known environments.
+	\item Robust localization in known maps with anchor markers.
+	\item Extended Kalman Filter (EKF) for multiple source information fusion.
+	\item Model Predictive Control (MPC) for robust trajectory tracking.
+	\item Alphanumerical string reader using a monocular camera.
+	\item Object recognition via neural network.
+	\item Vehicle routing solver considering a risk level and the residual agent autonomy.
+\end{enumerate}
+All the aforementioned modules have been tested in real-world experiments, using the UAV platform developed during the first year.
+The build software has been presented at the second Leonardo drone contest where the flying platform showed a very high level of robustness,
+reliability, and resiliency. The main goal for the third year was to improve the autonomy of the UAV developed during the previous two years.
+The final challenge was primarily focused on testing the localization and avoidance capabilities of the drone, making it navigate in 
+marker-free and unknown environments.
+
+Besides that, I was involved in a bunch of accessory research activities involving the design of learning-based control techniques
+based on MPC tools~\cite{gentilini2022model}, output regulation theory~\cite{gentilini2022adaptive, gentilini2022data}, and
+high-gain observers~\cite{trimarchi2022data}. Finally, I was involved in the European project AirBorne project where we developed
+and tested a new search-and-rescue algorithm based on the electromagnetic signals received by ARVA~\cite{azzollini2021uav}.
+
+\subsection{Publications}
+Please refer to~\cite{gentilini2022adaptive, gentilini2021trajectory, gentilini2022data, trimarchi2022data, gentilini2022model}
+for the accepted publications, and to~\cite{gentilini2022direct, azzollini2021uav} for the submitted ones.
+
+%------------------------------------------------
