@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  14 MAY 2023 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  27 MAY 2023 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/lorenzogentilini/Downloads/Thesis/main.tex
-(/Users/lorenzogentilini/Downloads/Thesis/main.tex
+**/Users/lorenzogentilini/Documents/University/PhD/Thesis/main.tex
+(/Users/lorenzogentilini/Documents/University/PhD/Thesis/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2021/11/13 v3.35 KOMA-Script document class (report)
@@ -3015,12 +3015,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  35119 strings out of 478268
- 712920 string characters out of 5846346
- 1582241 words of memory out of 5000000
+ 712965 string characters out of 5846346
+ 1582280 words of memory out of 5000000
  51828 multiletter control sequences out of 15000+600000
  602418 words of font info for 279 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,23n,108p,10640b,3305s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,23n,108p,10655b,3305s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@ferreau2014qpoases} has been referenced but does not exist, replaced by a fixed one
 
@@ -3028,7 +3028,7 @@ pdfTeX warning (dest): name{cite.0@ferreau2014qpoases} has been referenced but d
 pdfTeX warning (dest): name{cite.0@verschueren2018towards} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (169 pages, 22758732 bytes).
+Output written on main.pdf (169 pages, 22758783 bytes).
 PDF statistics:
  3251 PDF objects out of 3580 (max. 8388607)
  2640 compressed objects within 27 object streams

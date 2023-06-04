@@ -1,0 +1,97 @@
+\RequirePackage{tikz,calc}
+\mode<presentation>
+\usefonttheme[onlymath]{serif} % Math as in papers
+
+%   Colors
+\definecolor{blue@O4S}{RGB}{0, 41, 69}
+\definecolor{emph@O4S}{RGB}{0, 93, 137}
+\definecolor{red@O4S}{RGB}{127,0,0}
+\definecolor{gray@O4S}{RGB}{112, 112, 112}
+\definecolor{UNIBOred}{HTML}{BD2B0B} % UNIBO red
+%\definecolor{newWater}{RGB}{0, 93, 137}
+%\definecolor{newBlue}{RGB}{0, 41, 69}
+%\definecolor{newGray}{RGB}{112, 112, 112}
+
+\setbeamercolor{header}{bg=white, fg=blue@O4S}
+\setbeamercolor{footer}{bg=white, fg=gray@O4S}
+\setbeamercolor{head/foot}{bg=white, fg=blue@O4S}
+\setbeamercolor{caption name}{fg=blue@O4S}
+\setbeamercolor{title color}{fg=blue@O4S,bg=blue@O4S!4}
+\setbeamercolor{bgcolor}{fg=blue@O4S,bg=blue@O4S!4}
+\setbeamercolor{author in head/foot}{fg=blue@O4S}
+
+%%%%%%%%%%%%%%
+%  Environements
+% \setbeamertemplate{enumerate item}{\color{emph@O4S}$\bullet$}
+\setbeamercolor{item projected}{bg=emph@O4S}
+\setbeamercolor{local structure}{fg=emph@O4S}
+% \setbeamertemplate{enumerate items}[circle]
+% \setbeamertemplate{itemize item}{\color{emph@O4S}$\blacksquare$}
+% \setbeamertemplate{itemize items}[triangle]
+% \setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{itemize item}{\color{emph@O4S}$\bullet$}
+\setbeamertemplate{itemize subitem}{\color{emph@O4S}$\blacktriangleright$}
+
+% No Navigation Symbols
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{section in toc}[ball unnumbered]
+\setbeamercolor{section in toc}{fg=blue@O4S}
+\setbeamercolor{section number projected}{bg=blue@O4S,fg=white}
+\setbeamertemplate{subsection in toc}[square]
+\setbeamercolor{subsection in toc}{fg=blue@O4S}
+\setbeamercolor{subsection number projected}{bg=blue@O4S,fg=white}
+
+% Frame Title
+\setbeamertemplate{frametitle}
+{%
+  \leavevmode%
+  \hbox{%    
+     \begin{beamercolorbox}[wd=\paperwidth]{header}%
+%        \raggedright\vskip2pt\hspace{0.00cm}%
+        \begin{tikzpicture}[remember picture, overlay]
+          \fill[red@O4S, line width=1pt, line cap=round] 
+          (0,-0.3cm) -- ++ (0,0.05cm) -- ++(2.5cm,0) -- ++ (0,-0.05cm) -- cycle;
+        \end{tikzpicture}%
+      \hspace{0.2cm} \insertframetitle
+      \hfill%
+      % \begin{tikzpicture}[remember picture, overlay]
+      %   \node at (-0.7,0) {\includegraphics[width=1cm]{LogoWB.png}};
+      % \end{tikzpicture}%
+    \end{beamercolorbox}%
+    }%
+  \vskip2pt%
+}
+
+% Foot Line
+\setbeamertemplate{footline}
+{%
+  \leavevmode%
+  \vskip2pt%
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth]{footer}
+    \raggedleft%
+    \hspace{.6cm}
+    \textit{\insertshortauthor} --
+    \textbf{\insertshorttitle} --
+    \insertshortdate \hspace{0.15cm}%
+    \insertframenumber $\,|\!$ \inserttotalframenumber%
+    \hspace{0.2cm}%
+    \begin{tikzpicture}[baseline]
+      \draw[red@O4S, line width=1.4pt] (0,-0.15cm) -- +(0,0.5cm);
+      \path (0,-0.2cm) rectangle +(0.15cm,0.6cm);
+    \end{tikzpicture}%
+  \end{beamercolorbox}%
+  }
+  \vskip1pt%
+}
+
+\setbeamercolor{block title}{use=structure,fg=white,bg=emph@O4S}
+\setbeamercolor{block title alerted}{use=alerted text,fg=white,bg=red@O4S}
+\setbeamercolor{block title example}{use=example text,fg=white,bg=example text.fg!75!black}
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!4!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!4!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!4!bg}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\mode
+<all>
